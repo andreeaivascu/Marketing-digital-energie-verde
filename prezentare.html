@@ -1,0 +1,6985 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Marketing Digital și Economia Verde</title>
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;family=Open+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css">
+
+<style>
+/* ===== GLOBAL RESET ===== */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8fafb;
+}
+
+/* ===== BASE slide-container (common to all) ===== */
+.slide-container {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+}
+
+/* ===== BASE slide-container (common to all) ===== */
+.slide-container {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+}
+
+/* ===== SLIDE 1: Hero/Title Slide ===== */
+.slide1 {
+    background-image: 
+        radial-gradient(circle at 20% 80%, rgba(76, 175, 80, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(33, 150, 243, 0.05) 0%, transparent 50%);
+}
+
+.slide1 .decorative-shape {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(76, 175, 80, 0.08);
+    z-index: 1;
+}
+
+.slide1 .shape1 {
+    width: 360px;
+    height: 360px;
+    top: -80px;
+    right: -80px;
+    background: rgba(76, 175, 80, 0.06);
+}
+
+.slide1 .shape2 {
+    width: 320px;
+    height: 320px;
+    bottom: -40px;
+    left: -40px;
+    background: rgba(33, 150, 243, 0.06);
+}
+
+.slide1 .shape3 {
+    width: 180px;
+    height: 180px;
+    top: 490px;
+    left: 110px;
+    background: rgba(76, 175, 80, 0.04);
+}
+
+.slide1 .main-content {
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    width: 700px;
+    z-index: 10;
+}
+
+.slide1 .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin: 0 0 20px 0;
+    line-height: 1.08;
+}
+
+.slide1 .title .highlight {
+    background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.slide1 .subtitle {
+    font-size: 24px;
+    color: #666;
+    margin: 0 0 40px 0;
+    font-weight: 400;
+}
+
+.slide1 .info-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    padding: 24px 32px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    display: inline-block;
+    width: 360px;
+}
+
+.slide1 .info-item {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    font-size: 16px;
+    color: #333;
+    white-space: nowrap;
+}
+
+.slide1 .info-item i {
+    color: #4CAF50;
+    margin-right: 12px;
+    font-size: 18px;
+    flex: 0 0 auto;
+}
+
+.slide1 .cta-button {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: white;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+    transition: all 0.3s ease;
+}
+
+.slide1 .cta-button i {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.slide1 .right-panel {
+    position: absolute;
+    right: 60px;
+    top: 182px;
+    width: 320px;
+    z-index: 10;
+}
+
+.slide1 .stat-card {
+    background: white;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #4CAF50;
+}
+
+.slide1 .stat-number {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4CAF50;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slide1 .stat-label {
+    font-size: 14px;
+    color: #666;
+    margin: 4px 0 0 0;
+}
+
+.slide1 .icon-container {
+    position: absolute;
+    right: 88px;
+    bottom: 74px;
+    z-index: 5;
+}
+
+.slide1 .floating-icon {
+    font-size: 120px;
+    color: rgba(76, 175, 80, 0.1);
+    animation: float 3s ease-in-out infinite;
+}
+
+.slide1 .badge {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* ===== SLIDE 2: Objectives ===== */
+.slide2 .header {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.slide2 .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin: 0;
+}
+
+.slide2 .title .highlight {
+    background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.slide2 .badge {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+}
+
+.slide2 .badge i {
+    margin-right: 8px;
+}
+
+.slide2 .objectives-grid {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    right: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    z-index: 10;
+}
+
+.slide2 .objective-card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.slide2 .objective-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.slide2 .objective-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.slide2 .objective-icon i {
+    font-size: 28px;
+    color: white;
+}
+
+.slide2 .objective-content {
+    flex: 1;
+}
+
+.slide2 .objective-number {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4CAF50;
+    margin: 0 0 4px 0;
+}
+
+.slide2 .objective-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0 0 8px 0;
+}
+
+.slide2 .objective-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.slide2 .progress-bar {
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    z-index: 10;
+}
+
+.slide2 .progress-text {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.slide2 .progress-line {
+    flex: 1;
+    height: 4px;
+    background: #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.slide2 .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4CAF50 0%, #45a049 100%);
+    border-radius: 2px;
+    width: 25%;
+}
+
+.slide2 .stats-row {
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.slide2 .stat-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.slide2 .stat-value {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4CAF50;
+    margin: 0;
+}
+
+.slide2 .stat-label {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* ===== SLIDE 3-9 and others (similar scoping pattern) ===== */
+.slide3 .header, .slide4 .header, .slide5 .header, .slide6 .header, .slide7 .header, .slide8 .header, .slide9 .header {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.slide3 .title, .slide4 .title, .slide5 .title, .slide6 .title, .slide7 .title, .slide8 .title, .slide9 .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin: 0;
+}
+
+[class^="slide"] .title .highlight {
+    background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+[class^="slide"] .badge {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+}
+
+[class^="slide"] .badge i {
+    margin-right: 8px;
+}
+
+/* SLIDE 3 Agenda */
+.slide3 .agenda-grid {
+    position: absolute;
+    top: 110px;
+    left: 80px;
+    right: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    z-index: 10;
+}
+
+.slide3 .agenda-card {
+    background: white;
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.slide3 .agenda-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.slide3 .agenda-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+    min-width: 0;
+}
+
+.slide3 .agenda-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.slide3 .agenda-icon i {
+    font-size: 20px;
+    color: white;
+}
+
+.slide3 .agenda-number {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4CAF50;
+    flex-shrink: 0;
+}
+
+.slide3 .agenda-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+    line-height: 1.2;
+}
+
+.slide3 .agenda-desc {
+    font-size: 13px;
+    color: #666;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.slide3 .time-indicator {
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    z-index: 10;
+}
+
+.slide3 .time-text {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.slide3 .time-line {
+    flex: 1;
+    height: 4px;
+    background: #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.slide3 .time-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4CAF50 0%, #45a049 100%);
+    border-radius: 2px;
+    width: 15%;
+}
+
+.slide3 .status-badge {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* SLIDE 4 - Content with 2 columns */
+.slide4 .content-area {
+    position: absolute;
+    top: 112px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    gap: 24px;
+    height: 528px;
+    z-index: 10;
+}
+
+.slide4 .left-column, .slide4 .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+}
+
+.slide4 .bullet-card {
+    background: white;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    min-height: 92px;
+    box-sizing: border-box;
+}
+
+.slide4 .bullet-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.slide4 .bullet-icon i {
+    font-size: 24px;
+    color: white;
+}
+
+.slide4 .bullet-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.slide4 .bullet-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0 0 8px 0;
+}
+
+.slide4 .bullet-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    line-height: 1.45;
+}
+
+.slide4 .visual-card {
+    background: white;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.slide4 .visual-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0 0 14px 0;
+}
+
+.slide4 .funnel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    margin-top: 4px;
+}
+
+.slide4 .funnel-stage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide4 .funnel-box {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.slide4 .funnel-arrow {
+    color: #4CAF50;
+    font-size: 20px;
+    margin: 1px 0;
+    line-height: 1;
+}
+
+.slide4 .stats-row {
+    display: flex;
+    gap: 16px;
+    margin-top: auto;
+    padding-top: 8px;
+}
+
+.slide4 .stat-item {
+    flex: 1;
+    text-align: center;
+}
+
+.slide4 .stat-value {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4CAF50;
+    margin: 0;
+    line-height: 1;
+}
+
+.slide4 .stat-label {
+    font-size: 12px;
+    color: #666;
+    margin: 4px 0 0 0;
+}
+
+/* SLIDE 5 - Timeline */
+.slide5 .content-area {
+    position: absolute;
+    top: 112px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 528px;
+    z-index: 10;
+}
+
+.slide5 .timeline-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.slide5 .timeline-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    flex: 1;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.slide5 .timeline-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.slide5 .timeline-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.slide5 .timeline-icon i {
+    font-size: 18px;
+    color: white;
+}
+
+.slide5 .timeline-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0;
+}
+
+.slide5 .timeline-desc {
+    font-size: 13px;
+    color: #666;
+    margin: 0 0 12px 0;
+    line-height: 1.4;
+    flex: 1;
+}
+
+.slide5 .timeline-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.slide5 .feature-tag {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.slide5 .stats-row {
+    display: flex;
+    gap: 16px;
+    margin-top: auto;
+}
+
+.slide5 .stat-item {
+    flex: 1;
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.slide5 .stat-value {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4CAF50;
+    margin: 0;
+    line-height: 1;
+}
+
+.slide5 .stat-label {
+    font-size: 12px;
+    color: #666;
+    margin: 4px 0 0 0;
+}
+
+.slide5 .evolution-bar {
+    background: white;
+    border-radius: 12px;
+    padding: 16px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    right: 80px;
+}
+
+.slide5 .evolution-text {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.slide5 .evolution-progress {
+    flex: 1;
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.slide5 .evolution-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4CAF50 0%, #45a049 100%);
+    border-radius: 4px;
+}
+
+.slide5 .evolution-percent {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4CAF50;
+    margin: 0;
+}
+
+/* SLIDE 6 - Advantages */
+.slide6 .content-area {
+    position: absolute;
+    top: 112px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 528px;
+    z-index: 10;
+}
+
+.slide6 .row {
+    display: flex;
+    gap: 24px;
+    flex: 1;
+}
+
+.slide6 .bullet-card {
+    background: white;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.slide6 .bullet-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.slide6 .bullet-icon i {
+    font-size: 24px;
+    color: white;
+}
+
+.slide6 .bullet-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.slide6 .bullet-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0 0 8px 0;
+}
+
+.slide6 .bullet-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    line-height: 1.45;
+}
+
+.slide6 .stats-panel {
+    background: white;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.slide6 .stat-item {
+    text-align: center;
+    flex: 1;
+}
+
+.slide6 .stat-value {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #4CAF50;
+    margin: 0;
+    line-height: 1;
+}
+
+.slide6 .statValue {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #4CAF50;
+    margin: 0;
+    line-height: 1;
+}
+
+.slide6 .stat-label {
+    font-size: 13px;
+    color: #666;
+    margin: 4px 0 0 0;
+}
+
+/* SLIDE 7 - Channels */
+.slide7 .content-area {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    right: 80px;
+    height: 520px;
+    display: flex;
+    gap: 24px;
+    z-index: 10;
+}
+
+.slide7 .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.slide7 .channel-card {
+    background: white;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    transition: all 0.3s ease;
+    flex: 1;
+    box-sizing: border-box;
+    min-height: 160px;
+}
+
+.slide7 .channel-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.slide7 .channel-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.slide7 .channel-icon i {
+    font-size: 24px;
+    color: white;
+}
+
+.slide7 .channel-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.slide7 .channel-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0 0 8px 0;
+}
+
+.slide7 .channel-desc {
+    font-size: 13px;
+    color: #666;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.slide7 .channel-stats {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #4CAF50;
+    flex-wrap: wrap;
+}
+
+.slide7 .stat-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+}
+
+.slide7 .stat-item i {
+    font-size: 10px;
+}
+
+/* SLIDE 8 - SEO */
+.slide8 .content-area {
+    position: absolute;
+    top: 102px;
+    left: 80px;
+    right: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    height: 578px;
+    z-index: 10;
+}
+
+.slide8 .seo-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.slide8 .seo-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.slide8 .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.slide8 .card-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.slide8 .card-icon i {
+    font-size: 20px;
+    color: white;
+}
+
+.slide8 .card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0;
+}
+
+.slide8 .card-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.slide8 .checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.slide8 .checklist-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.35;
+}
+
+.slide8 .checklist-item i {
+    color: #4CAF50;
+    font-size: 12px;
+    flex-shrink: 0;
+}
+
+.slide8 .stats-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666;
+}
+
+.slide8 .stat-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+}
+
+.slide8 .stat-item i {
+    color: #4CAF50;
+    font-size: 10px;
+}
+
+/* Animations */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+</style>
+
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+
+<div class="slide-container slide1">
+<!-- Decorative shapes -->
+<div class="decorative-shape shape1"></div>
+<div class="decorative-shape shape2"></div>
+<div class="decorative-shape shape3"></div>
+<!-- Main content -->
+<div class="main-content">
+<div class="badge"><i class="fas fa-leaf"></i> Curs Teoretic + Aplicat</div>
+<h1 class="title">Marketing Digital<br/>și <span class="highlight">Economia Verde</span></h1>
+<p class="subtitle">Transformarea sustenabilă a afacerilor prin strategii digitale</p>
+<div class="info-box">
+<div class="info-item">
+<i class="fas fa-clock"></i>
+<span>Durată: 3 ore (Teorie + Exemple Practice)</span>
+</div>
+<div class="info-item">
+<i class="fas fa-users"></i>
+<span>Target: Marketing Managers, Entrepreneurs</span>
+</div>
+<div class="info-item">
+<i class="fas fa-graduation-cap"></i>
+<span>Nivel: Intermediar - Avansat</span>
+</div>
+</div>
+
+</div>
+<!-- Right panel with stats -->
+<div class="right-panel">
+<div class="stat-card">
+<div class="stat-number">85%</div>
+<div class="stat-label">Creștere în marketing digital</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">60%</div>
+<div class="stat-label">Preferință pentru branduri eco</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">3x</div>
+<div class="stat-label">ROI în campanii sustenabile</div>
+</div>
+</div>
+<!-- Floating icon -->
+<div class="icon-container">
+<i class="fas fa-leaf floating-icon"></i>
+</div>
+</div>
+ </section>
+
+<section>
+
+<div class="slide-container slide2">
+<div class="header">
+<div class="title">Obiectivele <span class="highlight">Cursului</span></div>
+<div class="badge"><i class="fas fa-target"></i> 4 obiective principale</div>
+</div>
+<div class="objectives-grid">
+<div class="objective-card">
+<div class="objective-icon">
+<i class="fas fa-bullhorn"></i>
+</div>
+<div class="objective-content">
+<div class="objective-number">01</div>
+<div class="objective-title">Înțelegerea marketingului digital</div>
+<div class="objective-desc">Concepte de bază, strategii și instrumente esențiale pentru promovarea online a produselor și serviciilor.</div>
+</div>
+</div>
+<div class="objective-card">
+<div class="objective-icon">
+<i class="fas fa-leaf"></i>
+</div>
+<div class="objective-content">
+<div class="objective-number">02</div>
+<div class="objective-title">Înțelegerea economiei verzi</div>
+<div class="objective-desc">Principii de dezvoltare sustenabilă și impactul economic al practicilor ecologice.</div>
+</div>
+</div>
+<div class="objective-card">
+<div class="objective-icon">
+<i class="fas fa-link"></i>
+</div>
+<div class="objective-content">
+<div class="objective-number">03</div>
+<div class="objective-title">Legătura dintre digital și sustenabilitate</div>
+<div class="objective-desc">Cum tehnologia digitală poate susține obiectivele de mediu și economia circulară.</div>
+</div>
+</div>
+<div class="objective-card">
+<div class="objective-icon">
+<i class="fas fa-hands-helping"></i>
+</div>
+<div class="objective-content">
+<div class="objective-number">04</div>
+<div class="objective-title">Aplicarea practică a conceptelor</div>
+<div class="objective-desc">Studii de caz și exerciții practice pentru implementarea strategiilor digitale sustenabile.</div>
+</div>
+</div>
+</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">85%</div>
+<div class="stat-label">Creștere în marketing digital</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">60%</div>
+<div class="stat-label">Preferință pentru branduri eco</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">3x</div>
+<div class="stat-label">ROI în campanii sustenabile</div>
+</div>
+</div>
+</section>
+
+<section>
+
+<div class="slide-container slide3">
+<div class="header">
+<div class="title">Agenda <span class="highlight">Cursului</span></div>
+<div class="badge"><i class="fas fa-calendar-alt"></i> 7 module principale</div>
+</div>
+<div class="agenda-grid">
+<div class="agenda-card">
+<div class="agenda-header">
+<div class="agenda-icon">
+<i class="fas fa-bullhorn"></i>
+</div>
+<div class="agenda-number">01</div>
+<div class="agenda-title">Marketing Digital (Teorie)</div>
+</div>
+<p class="agenda-desc">Concepte de bază, strategii și instrumente esențiale pentru promovarea online.</p>
+</div>
+<div class="agenda-card">
+<div class="agenda-header">
+<div class="agenda-icon">
+<i class="fas fa-chart-line"></i>
+</div>
+<div class="agenda-number">02</div>
+<div class="agenda-title">Canale și Strategii</div>
+</div>
+<p class="agenda-desc">SEO, SEM, Social Media și Email Marketing pentru creștere organică.</p>
+</div>
+<div class="agenda-card">
+<div class="agenda-header">
+<div class="agenda-icon">
+<i class="fas fa-chart-line"></i>
+</div>
+<div class="agenda-number">03</div>
+<div class="agenda-title">Analiză Digitală</div>
+</div>
+<p class="agenda-desc">Google Analytics, KPI-uri și optimizare campanii în timp real.</p>
+</div>
+<div class="agenda-card">
+<div class="agenda-header">
+<div class="agenda-icon">
+<i class="fas fa-leaf"></i>
+</div>
+<div class="agenda-number">04</div>
+<div class="agenda-title">Economia Verde</div>
+</div>
+<p class="agenda-desc">Dezvoltare sustenabilă, energie regenerabilă și consum responsabil.</p>
+</div>
+<div class="agenda-card">
+<div class="agenda-header">
+<div class="agenda-icon">
+<i class="fas fa-hand-holding-heart"></i>
+</div>
+<div class="agenda-number">05</div>
+<div class="agenda-title">Marketing Sustenabil</div>
+</div>
+<p class="agenda-desc">Promovarea produselor eco și responsabilitate socială.</p>
+</div>
+<div class="agenda-card">
+<div class="agenda-header">
+<div class="agenda-icon">
+<i class="fas fa-book-reader"></i>
+</div>
+<div class="agenda-number">06</div>
+<div class="agenda-title">Studiu de Caz</div>
+</div>
+<p class="agenda-desc">Analiză practică a unei campanii de marketing digital eco.</p>
+</div>
+
+
+</div>
+<div class="time-indicator">
+<div class="time-text">Durată totală: 3 ore</div>
+<div class="time-line">
+<div class="time-fill"></div>
+</div>
+<div class="status-badge">În desfășurare</div>
+</div>
+</div>
+
+</section>
+
+<section>
+
+<div class="slide-container slide4">
+<div class="header">
+<div class="title">Ce este <span class="highlight">Marketingul Digital</span></div>
+<div class="badge"><i class="fas fa-info-circle"></i> Definiție &amp; Concepte</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-globe"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Promovare prin canale online</div>
+<div class="bullet-desc">Marketingul digital utilizează internetul și dispozitivele electronice pentru a promova produse și servicii, ajungând la publicul țintă prin canale digitale.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-desktop"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Website, social media, email, ads</div>
+<div class="bullet-desc">Platforme multiple: website-uri, rețele sociale, email marketing, reclame plătite și conținut digital pentru a atrage și converti clienți.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-users"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Interacțiune directă cu publicul</div>
+<div class="bullet-desc">Comunicare bidirecțională cu consumatorii, feedback în timp real și construirea de relații pe termen lung.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-chart-line"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">De la awareness la conversie</div>
+<div class="bullet-desc">Parcursul complet: conștientizare → interes → decizie → acțiune → loialitate și retenție.</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="visual-card">
+<div class="visual-title">Funnel de Marketing Digital</div>
+<div class="funnel-container">
+<div class="funnel-stage">
+<div class="funnel-box" style="width: 100%;">Awareness (Conștientizare)</div>
+</div>
+<div class="funnel-arrow"><i class="fas fa-arrow-down"></i></div>
+<div class="funnel-stage">
+<div class="funnel-box" style="width: 86%;">Interest (Interes)</div>
+</div>
+<div class="funnel-arrow"><i class="fas fa-arrow-down"></i></div>
+<div class="funnel-stage">
+<div class="funnel-box" style="width: 72%;">Decision (Decizie)</div>
+</div>
+<div class="funnel-arrow"><i class="fas fa-arrow-down"></i></div>
+<div class="funnel-stage">
+<div class="funnel-box" style="width: 58%;">Action (Acțiune)</div>
+</div>
+<div class="funnel-arrow"><i class="fas fa-arrow-down"></i></div>
+<div class="funnel-stage">
+<div class="funnel-box" style="width: 44%;">Loyalty (Loialitate)</div>
+</div>
+</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">85%</div>
+<div class="stat-label">Reach</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">42%</div>
+<div class="stat-label">Conversion</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">3.2x</div>
+<div class="stat-label">ROI</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+
+<div class="slide-container slide5">
+<div class="header">
+<div class="title">Evoluția <span class="highlight">Marketingului Digital</span></div>
+<div class="badge"><i class="fas fa-chart-line"></i> Istoric &amp; Trenduri</div>
+</div>
+<div class="content-area">
+<div class="timeline-container">
+<div class="timeline-card">
+<div class="timeline-header">
+<div class="timeline-icon">
+<i class="fas fa-tv"></i>
+</div>
+<div class="timeline-title">De la TV &amp; print la online</div>
+</div>
+<div class="timeline-desc">
+Marketingul a evoluat de la canale tradiționale (TV, radio, ziare) către platforme digitale, oferind targetare mai precisă și măsurabilitate reală.
+</div>
+<div class="timeline-features">
+<span class="feature-tag">1990s</span>
+<span class="feature-tag">Web 1.0</span>
+<span class="feature-tag">Banner ads</span>
+</div>
+</div>
+<div class="timeline-card">
+<div class="timeline-header">
+<div class="timeline-icon">
+<i class="fas fa-mobile-alt"></i>
+</div>
+<div class="timeline-title">Era social media</div>
+</div>
+<div class="timeline-desc">
+Apariția rețelelor sociale și a mobilelor a transformat modul în care brandurile interacționează cu consumatorii.
+</div>
+<div class="timeline-features">
+<span class="feature-tag">2004+</span>
+<span class="feature-tag">Facebook</span>
+<span class="feature-tag">Mobile</span>
+</div>
+</div>
+<div class="timeline-card">
+<div class="timeline-header">
+<div class="timeline-icon">
+<i class="fas fa-robot"></i>
+</div>
+<div class="timeline-title">AI &amp; automatizare</div>
+</div>
+<div class="timeline-desc">
+Inteligența artificială și automatizarea permit personalizarea conținutului la scară largă.
+</div>
+<div class="timeline-features">
+<span class="feature-tag">2010+</span>
+<span class="feature-tag">AI/ML</span>
+<span class="feature-tag">Chatbots</span>
+</div>
+</div>
+<div class="timeline-card">
+<div class="timeline-header">
+<div class="timeline-icon">
+<i class="fas fa-shield-alt"></i>
+</div>
+<div class="timeline-title">Date &amp; confidențialitate</div>
+</div>
+<div class="timeline-desc">
+Focus pe first-party data și respectarea confidențialității utilizatorilor în era GDPR.
+</div>
+<div class="timeline-features">
+<span class="feature-tag">2018+</span>
+<span class="feature-tag">GDPR</span>
+<span class="feature-tag">Privacy</span>
+</div>
+</div>
+</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">85%</div>
+<div class="stat-label">Digital vs Traditional</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">3.2x</div>
+<div class="stat-label">ROI Digital</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">+45%</div>
+<div class="stat-label">Creștere YoY</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">2.5B</div>
+<div class="stat-label">Utilizatori</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="slide-container slide6">
+<div class="header">
+<div class="title">Avantajele <span class="highlight">Marketingului Digital</span></div>
+<div class="badge"><i class="fas fa-chart-line"></i> Eficiență &amp; ROI</div>
+</div>
+<div class="content-area">
+<div class="row">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-dollar-sign"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Costuri mai mici</div>
+<div class="bullet-desc">Marketingul digital reduce costurile cu 60% comparativ cu media tradițională (TV, print). Investiția inițială este mai mică și ROI-ul mai rapid.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-bullseye"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Targetare precisă</div>
+<div class="bullet-desc">Segmentare avansată după demografie, comportament, interese și intenții de cumpărare pentru a ajunge la publicul potrivit.</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-clock"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Măsurare în timp real</div>
+<div class="bullet-desc">Monitorizare instantanee a performanței campaniilor, ajustări rapide și optimizare continuă pentru rezultate mai bune.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-expand-arrows-alt"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Scalabilitate și testare A/B</div>
+<div class="bullet-desc">Creștere rapidă a campaniilor și testare A/B pentru a identifica cea mai eficientă variantă de conținut.</div>
+</div>
+</div>
+</div>
+<div class="stats-panel">
+<div class="stat-item">
+<div class="stat-value">60%</div>
+<div class="stat-label">Reducere costuri</div>
+</div>
+<div class="stat-item">
+<div class="statValue">3.2x</div>
+<div class="stat-label">ROI mediu</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">85%</div>
+<div class="stat-label">Targetare precisă</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">24/7</div>
+<div class="stat-label">Disponibilitate</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+
+<div class="slide-container slide7">
+<div class="header">
+<div class="title">Canale <span class="highlight">Principale</span></div>
+<div class="badge"><i class="fas fa-bullhorn"></i> 6 canale esențiale</div>
+</div>
+<div class="content-area">
+<div class="column">
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-search"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">SEO (Optimizare Google)</div>
+<div class="channel-desc">Optimizare pentru motoarele de căutare, cuvinte cheie, conținut relevant și link building.</div>
+<div class="channel-stats">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 85% trafic organic</div>
+<div class="stat-item"><i class="fas fa-clock"></i> 3-6 luni</div>
+</div>
+</div>
+</div>
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-ad"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">Google Ads (SEM)</div>
+<div class="channel-desc">Reclame plătite, pay-per-click, targetare pe intenție și remarketing.</div>
+<div class="channel-stats">
+<div class="stat-item"><i class="fas fa-chart-line"></i> ROI 3.2x</div>
+<div class="stat-item"><i class="fas fa-clock"></i> Imediat</div>
+</div>
+</div>
+</div>
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-share-alt"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">Social Media</div>
+<div class="channel-desc">Facebook, Instagram, TikTok, LinkedIn - conținut video și engagement.</div>
+<div class="channel-stats">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 2.5B utilizatori</div>
+<div class="stat-item"><i class="fas fa-clock"></i> Continuu</div>
+</div>
+</div>
+</div>
+</div>
+<div class="column">
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-envelope"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">Email Marketing</div>
+<div class="channel-desc">Newslettere, automatizări, segmentare public și personalizare.</div>
+<div class="channel-stats">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 42% open rate</div>
+<div class="stat-item"><i class="fas fa-clock"></i> 2-4 ore/săpt</div>
+</div>
+</div>
+</div>
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-file-alt"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">Content Marketing</div>
+<div class="channel-desc">Bloguri, video, infografice, storytelling și conținut educativ.</div>
+<div class="channel-stats">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 65% engagement</div>
+<div class="stat-item"><i class="fas fa-clock"></i> 4-8 ore/săpt</div>
+</div>
+</div>
+</div>
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-users"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">Influenceri &amp; Afiliere</div>
+<div class="channel-desc">Colaborări cu influenceri, programe de afiliere și parteneriate.</div>
+<div class="channel-stats">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 5-15% conversie</div>
+<div class="stat-item"><i class="fas fa-clock"></i> 2-4 săptămâni</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+
+<div class="slide-container slide8">
+<div class="header">
+<div class="title">SEO <span class="highlight">(Optimizare Google)</span></div>
+<div class="badge"><i class="fas fa-search"></i> 4 elemente cheie</div>
+</div>
+<div class="content-area">
+<div class="seo-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-key"></i>
+</div>
+<div class="card-title">Cuvinte cheie</div>
+</div>
+<div class="card-desc">Identificarea și optimizarea cuvintelor cheie relevante pentru business-ul tău, cu focus pe intenția utilizatorilor.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Research cuvinte cheie</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Analiză competiție</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Long-tail keywords</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Intent matching</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 85% trafic organic</div>
+<div class="stat-item"><i class="fas fa-clock"></i> 3-6 luni</div>
+</div>
+</div>
+<div class="seo-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-file-alt"></i>
+</div>
+<div class="card-title">Conținut relevant</div>
+</div>
+<div class="card-desc">Crearea de conținut de calitate, actualizat și relevant pentru publicul țintă și motoarele de căutare.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Content fresh &amp; unic</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Optimizare on-page</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Structură semantică</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Meta tags optimizate</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 65% engagement</div>
+<div class="stat-item"><i class="fas fa-clock"></i> Continuu</div>
+</div>
+</div>
+<div class="seo-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-link"></i>
+</div>
+<div class="card-title">Link building</div>
+</div>
+<div class="card-desc">Construirea de link-uri de calitate pentru a crește autoritatea domeniului și ranking-ul în Google.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Link-uri externe</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Link-uri interne</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Guest posting</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Backlinks quality</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 42% autoritate</div>
+<div class="stat-item"><i class="fas fa-clock"></i> 2-4 luni</div>
+</div>
+</div>
+<div class="seo-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-cog"></i>
+</div>
+<div class="card-title">Optimizare tehnică site</div>
+</div>
+<div class="card-desc">Optimizarea tehnică a site-ului pentru viteză, mobile și experiență utilizator.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Viteză de încărcare</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Mobile friendly</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Core Web Vitals</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Schema markup</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 95% performanță</div>
+<div class="stat-item"><i class="fas fa-clock"></i> Continuu</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 102px;
+        left: 80px;
+        width: 1120px;
+        height: 578px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+        z-index: 10;
+    }
+    .ads-card {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+    }
+    .ads-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+    .card-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 8px;
+    }
+    .card-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .card-icon i {
+        font-size: 20px;
+        color: white;
+    }
+    .card-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .card-desc {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+        line-height: 1.5;
+    }
+    .checklist {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 8px;
+    }
+    .checklist-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 13px;
+        color: #555;
+        line-height: 1.35;
+    }
+    .checklist-item i {
+        color: #2196F3;
+        font-size: 12px;
+        flex-shrink: 0;
+    }
+    .stats-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        font-size: 12px;
+        color: #666;
+    }
+    .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        white-space: nowrap;
+    }
+    .stat-item i {
+        color: #2196F3;
+        font-size: 10px;
+    }
+    .format-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 8px;
+    }
+    .format-tag {
+        background: #e3f2fd;
+        color: #1976D2;
+        padding: 4px 10px;
+        border-radius: 12px;
+        font-size: 11px;
+        font-weight: 500;
+    }
+</style>
+</head>
+<body>
+<div class="slide-container">
+<div class="header">
+<div class="title">Google Ads <span class="highlight">(SEM)</span></div>
+<div class="badge"><i class="fas fa-ad"></i> 4 elemente cheie</div>
+</div>
+<div class="content-area">
+<div class="ads-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-search-dollar"></i>
+</div>
+<div class="card-title">Reclame plătite pe căutare</div>
+</div>
+<div class="card-desc">Reclame care apar în rezultatele căutării Google atunci când utilizatorii caută produse sau servicii relevante.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Targetare pe cuvinte cheie</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Control buget zilnic</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Măsurare conversii</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Optimizare ROI</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 75% CTR</div>
+<div class="stat-item"><i class="fas fa-clock"></i> Imediat</div>
+</div>
+</div>
+<div class="ads-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-mouse-pointer"></i>
+</div>
+<div class="card-title">Pay-per-click (PPC)</div>
+</div>
+<div class="card-desc">Model de plată unde plătești doar când cineva dă click pe reclama ta, optimizând costul per acțiune.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Control costuri</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Licitație în timp real</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Quality Score</div>
+<div class="checklist-item"><i class="fas fa-check"></i> CPC optimizat</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 3.5% CTR mediu</div>
+<div class="stat-item"><i class="fas fa-clock"></i> Continuu</div>
+</div>
+</div>
+<div class="ads-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-bullseye"></i>
+</div>
+<div class="card-title">Targetare pe intenție</div>
+</div>
+<div class="card-desc">Targetare precisă bazată pe intenția de cumpărare a utilizatorilor pentru maximizarea conversiilor.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Intenție de cumpărare</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Demografică</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Geografică</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Interese</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> 45% conversie</div>
+<div class="stat-item"><i class="fas fa-clock"></i> Continuu</div>
+</div>
+</div>
+<div class="ads-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-layer-group"></i>
+</div>
+<div class="card-title">Formate multiple</div>
+</div>
+<div class="card-desc">Diverse formate de reclame pentru a ajunge la publicul țintă pe diferite platforme Google.</div>
+<div class="format-tags">
+<div class="format-tag">Search</div>
+<div class="format-tag">Display</div>
+<div class="format-tag">YouTube</div>
+<div class="format-tag">Performance Max</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section>
+  <!DOCTYPE html>
+
+<html lang="ro">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Content Marketing</title>
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;family=Open+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 112px;
+        left: 80px;
+        width: 1120px;
+        height: 528px;
+        display: flex;
+        gap: 24px;
+        z-index: 10;
+    }
+    .left-column, .right-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        min-width: 0;
+    }
+    .bullet-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        min-height: 92px;
+        box-sizing: border-box;
+    }
+    .bullet-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .bullet-icon i {
+        font-size: 24px;
+        color: white;
+    }
+    .bullet-content {
+        flex: 1;
+        min-width: 0;
+    }
+    .bullet-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 8px 0;
+    }
+    .bullet-desc {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+        line-height: 1.45;
+    }
+    .visual-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px 16px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .visual-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 14px 0;
+    }
+    .content-types {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 16px;
+    }
+    .content-type {
+        flex: 1;
+        text-align: center;
+        padding: 12px;
+        background: #f8f9fa;
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+    }
+    .content-type i {
+        font-size: 24px;
+        color: #4CAF50;
+        margin-bottom: 8px;
+    }
+    .content-type-label {
+        font-size: 13px;
+        color: #666;
+        font-weight: 500;
+    }
+    .process-flow {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 8px;
+    }
+    .process-step {
+        flex: 1;
+        text-align: center;
+    }
+    .process-box {
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        border-radius: 8px;
+        padding: 10px 16px;
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .process-arrow {
+        color: #4CAF50;
+        font-size: 18px;
+    }
+    .stats-row {
+        display: flex;
+        gap: 16px;
+        margin-top: auto;
+        padding-top: 8px;
+    }
+    .stat-item {
+        flex: 1;
+        text-align: center;
+    }
+    .stat-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+        line-height: 1;
+    }
+    .stat-label {
+        font-size: 12px;
+        color: #666;
+        margin: 4px 0 0 0;
+    }
+</style>
+</head>
+<body>
+<div class="slide-container">
+<div class="header">
+<div class="title"><span class="highlight">Content</span> Marketing</div>
+<div class="badge"><i class="fas fa-pen-fancy"></i> Strategii &amp; Formate</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-file-alt"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Formate: bloguri/video/infografice</div>
+<div class="bullet-desc">Diversificarea conținutului: articole de blog, videoclipuri educative, infografice vizuale, podcast-uri și conținut interactiv.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-book-open"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Storytelling: problemă-soluție-impact</div>
+<div class="bullet-desc">Structura narativă: identificarea problemei, prezentarea soluției, demonstrarea impactului și rezultatelor concrete.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-share-alt"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">SEO + distribuție pe canale</div>
+<div class="bullet-desc">Optimizare pentru motoarele de căutare și distribuție strategică pe multiple canale pentru maximizarea reach-ului.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-calendar-alt"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Calendar editorial și repurposing</div>
+<div class="bullet-desc">Planificare conținut și reutilizare inteligentă a materialelor existente pentru eficiență maximă.</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="visual-card">
+<div class="visual-title">Tipuri de Conținut</div>
+<div class="content-types">
+<div class="content-type">
+<i class="fas fa-blog"></i>
+<div class="content-type-label">Bloguri</div>
+</div>
+<div class="content-type">
+<i class="fas fa-video"></i>
+<div class="content-type-label">Video</div>
+</div>
+<div class="content-type">
+<i class="fas fa-image"></i>
+<div class="content-type-label">Infografice</div>
+</div>
+<div class="content-type">
+<i class="fas fa-podcast"></i>
+<div class="content-type-label">Podcast</div>
+</div>
+</div>
+<div class="visual-title" style="margin-top: 16px;">Fluxul Storytelling</div>
+<div class="process-flow">
+<div class="process-step">
+<div class="process-box">Problemă</div>
+</div>
+<div class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+<div class="process-step">
+<div class="process-box">Soluție</div>
+</div>
+<div class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+<div class="process-step">
+<div class="process-box">Impact</div>
+</div>
+</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">75%</div>
+<div class="stat-label">Engagement</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">3.5x</div>
+<div class="stat-label">ROI</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">40%</div>
+<div class="stat-label">Conversie</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+
+
+
+
+<section>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f8fafb;
+        }
+        .slide-container {
+            position: relative;
+            width: 1280px;
+            height: 720px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+        }
+        .header {
+            position: absolute;
+            top: 40px;
+            left: 80px;
+            width: 1120px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+        }
+        .title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin: 0;
+        }
+        .title .highlight {
+            background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .badge {
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+        }
+        .badge i {
+            margin-right: 8px;
+        }
+        .content-area {
+            position: absolute;
+            top: 112px;
+            left: 80px;
+            width: 1120px;
+            height: 528px;
+            display: flex;
+            gap: 24px;
+            z-index: 10;
+        }
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            min-width: 0;
+        }
+        .right-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            min-width: 0;
+        }
+        .bullet-card {
+            background: white;
+            border-radius: 12px;
+            padding: 18px 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(76, 175, 80, 0.1);
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            min-height: 92px;
+            box-sizing: border-box;
+        }
+        .bullet-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .bullet-icon i {
+            font-size: 24px;
+            color: white;
+        }
+        .bullet-content {
+            flex: 1;
+            min-width: 0;
+        }
+        .bullet-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin: 0 0 8px 0;
+        }
+        .bullet-desc {
+            font-size: 14px;
+            color: #666;
+            margin: 0;
+            line-height: 1.45;
+        }
+        .stats-card {
+            background: white;
+            border-radius: 12px;
+            padding: 18px 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(76, 175, 80, 0.1);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .stats-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        .stats-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin: 0;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-top: auto;
+        }
+        .stat-item {
+            text-align: center;
+            padding: 12px;
+            background: #f8fafb;
+            border-radius: 8px;
+        }
+        .stat-value {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #4CAF50;
+            margin: 0;
+            line-height: 1;
+        }
+        .statValue {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #4CAF50;
+            margin: 0;
+            line-height: 1;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            margin: 4px 0 0 0;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .metric-name {
+            font-size: 14px;
+            color: #666;
+        }
+        .metric-value {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1a1a2e;
+        }
+    </style>
+
+<div class="slide-container">
+<div class="header">
+<div class="title">Email <span class="highlight">Marketing</span></div>
+<div class="badge"><i class="fas fa-envelope"></i> Comunicare Directă</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-paper-plane"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Newslettere și secvențe automate</div>
+<div class="bullet-desc">Creează newslettere regulate și automatizează fluxurile de email pentru a ghida clienții prin procesul de conversie.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-users-cog"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Segmentare și personalizare</div>
+<div class="bullet-desc">Împarte baza de date în segmente relevante și personalizează mesajele pentru fiecare grup țintă.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-chart-bar"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Metrici: open rate/CTR/conversii</div>
+<div class="bullet-desc">Monitorizează performanța campaniilor prin metrici cheie: rata de deschidere, click-uri și conversii.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-shield-alt"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Conformitate GDPR</div>
+<div class="bullet-desc">Respectă regulamentul GDPR pentru protecția datelor personale și obține consimțământul explicit.</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="stats-card">
+<div class="stats-header">
+<div class="stats-title">Performanță Email Marketing</div>
+<div class="badge" style="background: #e8f5e9; color: #2e7d32; font-size: 12px; padding: 4px 12px;">
+<i class="fas fa-check-circle"></i> Activ
+                        </div>
+</div>
+<div class="stats-grid">
+<div class="stat-item">
+<div class="stat-value">24%</div>
+<div class="stat-label">Open Rate</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 24%;"></div>
+</div>
+</div>
+<div class="stat-item">
+<div class="statValue">3.2%</div>
+<div class="stat-label">CTR</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 3.2%;"></div>
+</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">1.8%</div>
+<div class="stat-label">Conversion</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 1.8%;"></div>
+</div>
+</div>
+</div>
+<div style="margin-top: 16px;">
+<div class="metric-row">
+<span class="metric-name">Bounce Rate</span>
+<span class="metric-value">2.4%</span>
+</div>
+<div class="metric-row">
+<span class="metric-name">Unsubscribe Rate</span>
+<span class="metric-value">0.5%</span>
+</div>
+<div class="metric-row">
+<span class="metric-name">Deliverability</span>
+<span class="metric-value">98.2%</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+
+
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 112px;
+        left: 80px;
+        width: 1120px;
+        height: 572px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        z-index: 10;
+        box-sizing: border-box;
+    }
+    .kpi-card {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+        min-width: 0;
+    }
+    .kpi-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+    .card-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 8px;
+    }
+    .card-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .card-icon i {
+        font-size: 20px;
+        color: white;
+    }
+    .card-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .kpi-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-top: 8px;
+    }
+    .kpi-item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .kpi-label {
+        font-size: 13px;
+        color: #666;
+        margin: 0;
+    }
+    .kpi-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+        line-height: 1.2;
+    }
+    .kpi-change {
+        font-size: 12px;
+        color: #4CAF50;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .kpi-change i {
+        font-size: 10px;
+    }
+    .kpi-desc {
+        font-size: 13px;
+        color: #666;
+        margin: 0;
+        line-height: 1.4;
+        min-height: 36px;
+    }
+    .stats-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        font-size: 12px;
+        color: #666;
+    }
+    .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .stat-item i {
+        color: #4CAF50;
+        font-size: 10px;
+    }
+    .chart-container {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 12px;
+    }
+    .chart-bar {
+        flex: 1;
+        height: 8px;
+        background: #e0e0e0;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    .chart-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #4CAF50 0%, #45a049 100%);
+        border-radius: 4px;
+    }
+    .chart-label {
+        font-size: 12px;
+        color: #666;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+</style>
+
+<div class="slide-container">
+<div class="header">
+<div class="title">KPI în <span class="highlight">Marketing Digital</span></div>
+<div class="badge"><i class="fas fa-chart-line"></i> 4 metrici esențiale</div>
+</div>
+<div class="content-area">
+<div class="kpi-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-mouse-pointer"></i>
+</div>
+<div class="card-title">CTR (Click-Through Rate)</div>
+</div>
+<div class="kpi-desc">Procentajul de utilizatori care fac click pe un link sau reclamă din numărul total de afișări.</div>
+<div class="kpi-grid">
+<div class="kpi-item">
+<div class="kpi-label">CTR mediu</div>
+<div class="kpi-value">2.5%</div>
+<div class="kpi-change"><i class="fas fa-arrow-up"></i> +0.3%</div>
+</div>
+<div class="kpi-item">
+<div class="kpi-label">CTR optim</div>
+<div class="kpi-value">5.0%</div>
+<div class="kpi-change"><i class="fas fa-arrow-up"></i> +1.2%</div>
+</div>
+</div>
+<div class="chart-container">
+<div class="chart-bar">
+<div class="chart-fill" style="width: 65%;"></div>
+</div>
+<div class="chart-label">65% performanță</div>
+</div>
+</div>
+<div class="kpi-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-dollar-sign"></i>
+</div>
+<div class="card-title">CPC (Cost per Click)</div>
+</div>
+<div class="kpi-desc">Costul plătit pentru fiecare click pe reclama ta în campaniile PPC.</div>
+<div class="kpi-grid">
+<div class="kpi-item">
+<div class="kpi-label">CPC mediu</div>
+<div class="kpi-value">€0.85</div>
+<div class="kpi-change"><i class="fas fa-arrow-down"></i> -0.15€</div>
+</div>
+<div class="kpi-item">
+<div class="kpi-label">CPC optim</div>
+<div class="kpi-value">€0.50</div>
+<div class="kpi-change"><i class="fas fa-arrow-down"></i> -0.20€</div>
+</div>
+</div>
+<div class="chart-container">
+<div class="chart-bar">
+<div class="chart-fill" style="width: 75%;"></div>
+</div>
+<div class="chart-label">75% eficiență</div>
+</div>
+</div>
+<div class="kpi-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-exchange-alt"></i>
+</div>
+<div class="card-title">Conversii &amp; Rată de Conversie</div>
+</div>
+<div class="kpi-desc">Numărul de vizitatori care efectuează o acțiune dorită (cumpărare, înregistrare etc.).</div>
+<div class="kpi-grid">
+<div class="kpi-item">
+<div class="kpi-label">Conversii</div>
+<div class="kpi-value">125</div>
+<div class="kpi-change"><i class="fas fa-arrow-up"></i> +12%</div>
+</div>
+<div class="kpi-item">
+<div class="kpi-label">Rată conversie</div>
+<div class="kpi-value">3.2%</div>
+<div class="kpi-change"><i class="fas fa-arrow-up"></i> +0.5%</div>
+</div>
+</div>
+<div class="chart-container">
+<div class="chart-bar">
+<div class="chart-fill" style="width: 80%;"></div>
+</div>
+<div class="chart-label">80% țintă atinsă</div>
+</div>
+</div>
+<div class="kpi-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-chart-pie"></i>
+</div>
+<div class="card-title">ROI, CAC &amp; LTV</div>
+</div>
+<div class="kpi-desc">Return on Investment, Cost de Achiziție Client și Lifetime Value.</div>
+<div class="kpi-grid">
+<div class="kpi-item">
+<div class="kpi-label">ROI</div>
+<div class="kpi-value">3.2x</div>
+<div class="kpi-change"><i class="fas fa-arrow-up"></i> +0.8x</div>
+</div>
+<div class="kpi-item">
+<div class="kpi-label">CAC</div>
+<div class="kpi-value">€15</div>
+<div class="kpi-change"><i class="fas fa-arrow-down"></i> -€3</div>
+</div>
+</div>
+<div class="chart-container">
+<div class="chart-bar">
+<div class="chart-fill" style="width: 90%;"></div>
+</div>
+<div class="chart-label">90% profitabilitate</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #e8f5e9 0%, #f0f7f4 50%, #e8f4f8 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #2E7D32 0%, #4CAF50 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 112px;
+        left: 80px;
+        width: 1120px;
+        height: 528px;
+        display: flex;
+        gap: 24px;
+        z-index: 10;
+    }
+    .left-column, .right-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        min-width: 0;
+    }
+    .bullet-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        min-height: 92px;
+        box-sizing: border-box;
+    }
+    .bullet-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .bullet-icon i {
+        font-size: 24px;
+        color: white;
+    }
+    .bullet-content {
+        flex: 1;
+        min-width: 0;
+    }
+    .bullet-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 8px 0;
+    }
+    .bullet-desc {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+        line-height: 1.45;
+    }
+    .visual-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px 16px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .visual-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 14px 0;
+    }
+    .eco-model {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin-top: 8px;
+    }
+    .model-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        width: 100%;
+    }
+    .model-box {
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        border-radius: 8px;
+        padding: 12px 24px;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        flex: 1;
+        max-width: 200px;
+    }
+    .model-arrow {
+        color: #4CAF50;
+        font-size: 20px;
+    }
+    .stats-row {
+        display: flex;
+        gap: 16px;
+        margin-top: auto;
+        padding-top: 8px;
+    }
+    .stat-item {
+        flex: 1;
+        text-align: center;
+    }
+    .stat-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+        line-height: 1;
+    }
+    .stat-label {
+        font-size: 12px;
+        color: #666;
+        margin: 4px 0 0 0;
+    }
+</style>
+
+<div class="slide-container">
+<div class="header">
+<div class="title">Ce este <span class="highlight">Economia Verde</span></div>
+<div class="badge"><i class="fas fa-leaf"></i> Concept &amp; Definiție</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-balance-scale"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Dezvoltare sustenabilă (people-planet-profit)</div>
+<div class="bullet-desc">Model economic care echilibrează nevoile sociale, protecția mediului și profitul, respectând principiul triplei linii de bază.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-smog"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Reducerea poluării și emisiilor</div>
+<div class="bullet-desc">Măsuri concrete pentru diminuarea emisiilor de carbon, gestionarea deșeurilor și protecția biodiversității.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-solar-panel"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Energie regenerabilă și eficiență</div>
+<div class="bullet-desc">Tranziție către surse de energie regenerabilă și optimizarea consumului energetic în toate sectoarele.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-recycle"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Consum responsabil și economie circulară</div>
+<div class="bullet-desc">Promovarea consumului conștient și modelul de economie circulară cu reutilizarea resurselor.</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="visual-card">
+<div class="visual-title">Modelul Economiei Verzi</div>
+<div class="eco-model">
+<div class="model-row">
+<div class="model-box" style="background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);">
+<div style="font-size: 12px; margin-bottom: 4px;">People</div>
+<div style="font-size: 16px;">Oameni</div>
+</div>
+<div class="model-arrow"><i class="fas fa-arrows-alt-h"></i></div>
+<div class="model-box" style="background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);">
+<div style="font-size: 12px; margin-bottom: 4px;">Planet</div>
+<div style="font-size: 16px;">Planetă</div>
+</div>
+<div class="model-arrow"><i class="fas fa-arrows-alt-h"></i></div>
+<div class="model-box" style="background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);">
+<div style="font-size: 12px; margin-bottom: 4px;">Profit</div>
+<div style="font-size: 16px;">Profit</div>
+</div>
+</div>
+<div class="model-row">
+<div style="text-align: center; font-size: 13px; color: #666; margin-top: 8px;">
+<i class="fas fa-info-circle" style="color: #4CAF50; margin-right: 8px;"></i>
+Echilibrul dintre social, mediu și economic
+</div>
+</div>
+</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">75%</div>
+<div class="stat-label">Reducere CO2</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">90%</div>
+<div class="stat-label">Energie verde</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">65%</div>
+<div class="stat-label">Reciclare</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 112px;
+        left: 80px;
+        width: 1120px;
+        height: 528px;
+        display: flex;
+        gap: 24px;
+        z-index: 10;
+    }
+    .left-column, .right-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        min-width: 0;
+    }
+    .bullet-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        min-height: 100px;
+        box-sizing: border-box;
+    }
+    .bullet-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .bullet-icon i {
+        font-size: 24px;
+        color: white;
+    }
+    .bullet-content {
+        flex: 1;
+        min-width: 0;
+    }
+    .bullet-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 8px 0;
+    }
+    .bullet-desc {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+        line-height: 1.45;
+    }
+    .visual-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px 16px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .visual-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 14px 0;
+    }
+    .progress-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 8px;
+    }
+    .progress-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .progress-label {
+        font-size: 14px;
+        color: #333;
+        min-width: 120px;
+        font-weight: 500;
+    }
+    .progress-bar {
+        flex: 1;
+        height: 8px;
+        background: #e0e0e0;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    .progress-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #4CAF50 0%, #45a049 100%);
+        border-radius: 4px;
+        transition: width 0.3s ease;
+    }
+    .progress-value {
+        font-size: 13px;
+        color: #666;
+        min-width: 50px;
+        text-align: right;
+    }
+    .stats-row {
+        display: flex;
+        gap: 16px;
+        margin-top: auto;
+        padding-top: 8px;
+    }
+    .stat-item {
+        flex: 1;
+        text-align: center;
+    }
+    .stat-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+        line-height: 1;
+    }
+    .stat-label {
+        font-size: 12px;
+        color: #666;
+        margin: 4px 0 0 0;
+    }
+</style>
+<div class="slide-container">
+<div class="header">
+<div class="title">Obiectivele <span class="highlight">Economiei Verzi</span></div>
+<div class="badge"><i class="fas fa-leaf"></i> Sustenabilitate</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-tree"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Protecția mediului și biodiversității</div>
+<div class="bullet-desc">Conservarea ecosistemelor naturale, protejarea speciilor pe cale de dispariție și reducerea poluării pentru un mediu sănătos.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-chart-line"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Creștere economică sustenabilă</div>
+<div class="bullet-desc">Dezvoltare economică care nu compromite resursele naturale pentru generațiile viitoare.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-bolt"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Eficiență energetică și resurse</div>
+<div class="bullet-desc">Optimizarea consumului de energie și utilizarea responsabilă a resurselor naturale.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-users"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Incluziune socială și inovație</div>
+<div class="bullet-desc">Asigurarea accesului egal la resurse și promovarea inovații verzi.</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="visual-card">
+<div class="visual-title">Progres Obiective Economie Verde</div>
+<div class="progress-container">
+<div class="progress-item">
+<div class="progress-label">Mediu &amp; Biodiv.</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 85%;"></div>
+</div>
+<div class="progress-value">85%</div>
+</div>
+<div class="progress-item">
+<div class="progress-label">Creștere Econ.</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 72%;"></div>
+</div>
+<div class="progress-value">72%</div>
+</div>
+<div class="progress-item">
+<div class="progress-label">Eficiență Energ.</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 90%;"></div>
+</div>
+<div class="progress-value">90%</div>
+</div>
+<div class="progress-item">
+<div class="progress-label">Incluziune Soc.</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 68%;"></div>
+</div>
+<div class="progress-value">68%</div>
+</div>
+</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">92%</div>
+<div class="stat-label">Target</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">78%</div>
+<div class="stat-label">Realizat</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">+15%</div>
+<div class="stat-label">Growth</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        right: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 100px;
+        left: 80px;
+        right: 80px;
+        height: 520px;
+        display: flex;
+        gap: 24px;
+        z-index: 10;
+    }
+    .column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .domain-card {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        transition: all 0.3s ease;
+        flex: 1;
+        box-sizing: border-box;
+        min-height: 150px;
+    }
+    .domain-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+    .domain-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .domain-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .domain-icon i {
+        font-size: 20px;
+        color: white;
+    }
+    .domain-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0;
+        flex: 1;
+    }
+    .domain-desc {
+        font-size: 13px;
+        color: #666;
+        margin: 0;
+        line-height: 1.5;
+    }
+    .domain-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 8px;
+    }
+    .tag {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 4px 10px;
+        border-radius: 12px;
+        font-size: 12px;
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .tag i {
+        font-size: 10px;
+    }
+</style>
+
+<div class="slide-container">
+<div class="header">
+<div class="title">Domenii <span class="highlight">Principale</span></div>
+<div class="badge"><i class="fas fa-leaf"></i> 4 domenii esențiale</div>
+</div>
+<div class="content-area">
+<div class="column">
+<div class="domain-card">
+<div class="domain-header">
+<div class="domain-icon">
+<i class="fas fa-solar-panel"></i>
+</div>
+<div class="domain-title">Energie Verde</div>
+</div>
+<div class="domain-desc">Energie regenerabilă din surse precum soare, vânt și apă, cu reducerea emisiilor de CO2 și tranziție către surse sustenabile.</div>
+<div class="domain-tags">
+<div class="tag"><i class="fas fa-sun"></i> Solar</div>
+<div class="tag"><i class="fas fa-wind"></i> Eoliană</div>
+<div class="tag"><i class="fas fa-water"></i> Hidro</div>
+</div>
+</div>
+<div class="domain-card">
+<div class="domain-header">
+<div class="domain-icon">
+<i class="fas fa-car"></i>
+</div>
+<div class="domain-title">Transport Electric</div>
+</div>
+<div class="domain-desc">Vehicule electrice și hibride, infrastructură de încărcare și soluții de mobilitate sustenabilă.</div>
+<div class="domain-tags">
+<div class="tag"><i class="fas fa-charging-station"></i> EV</div>
+<div class="tag"><i class="fas fa-battery-full"></i> Hibrid</div>
+<div class="tag"><i class="fas fa-bicycle"></i> Bike</div>
+</div>
+</div>
+</div>
+<div class="column">
+<div class="domain-card">
+<div class="domain-header">
+<div class="domain-icon">
+<i class="fas fa-seedling"></i>
+</div>
+<div class="domain-title">Agricultură Sustenabilă</div>
+</div>
+<div class="domain-desc">Practici agricole ecologice, reducerea pesticidelor și protecția solului și a biodiversității.</div>
+<div class="domain-tags">
+<div class="tag"><i class="fas fa-leaf"></i> Organic</div>
+<div class="tag"><i class="fas fa-recycle"></i> Circular</div>
+<div class="tag"><i class="fas fa-tractor"></i> Tech</div>
+</div>
+</div>
+<div class="domain-card">
+<div class="domain-header">
+<div class="domain-icon">
+<i class="fas fa-recycle"></i>
+</div>
+<div class="domain-title">Reciclare &amp; Economie Circulară</div>
+</div>
+<div class="domain-desc">Managementul deșeurilor, reciclarea și reutilizarea materialelor pentru economie circulară.</div>
+<div class="domain-tags">
+<div class="tag"><i class="fas fa-trash"></i> Colectare</div>
+<div class="tag"><i class="fas fa-sync"></i> Reutilizare</div>
+<div class="tag"><i class="fas fa-box"></i> Packaging</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 112px;
+        left: 80px;
+        width: 1120px;
+        height: 528px;
+        display: flex;
+        gap: 24px;
+        z-index: 10;
+    }
+    .left-column, .right-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        min-width: 0;
+    }
+    .bullet-card {
+        background: white;
+        border-radius: 12px;
+        padding: 16px 18px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        min-height: 100px;
+        box-sizing: border-box;
+    }
+    .bullet-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .bullet-icon i {
+        font-size: 24px;
+        color: white;
+    }
+    .bullet-content {
+        flex: 1;
+        min-width: 0;
+    }
+    .bullet-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 8px 0;
+    }
+    .bullet-desc {
+        font-size: 13px;
+        color: #666;
+        margin: 0;
+        line-height: 1.4;
+    }
+    .visual-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px 16px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .visual-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 14px 0;
+    }
+    .importance-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        flex: 1;
+    }
+    .importance-item {
+        background: linear-gradient(135deg, #f5f5f5 0%, #f0f0f0 100%);
+        border-radius: 8px;
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .importance-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #4CAF50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .importance-icon i {
+        font-size: 14px;
+        color: white;
+    }
+    .importance-text {
+        font-size: 13px;
+        color: #333;
+        margin: 0;
+    }
+    .stats-row {
+        display: flex;
+        gap: 16px;
+        margin-top: auto;
+        padding-top: 8px;
+    }
+    .stat-item {
+        flex: 1;
+        text-align: center;
+    }
+    .stat-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+        line-height: 1;
+    }
+    .stat-label {
+        font-size: 12px;
+        color: #666;
+        margin: 4px 0 0 0;
+    }
+</style>
+
+<div class="slide-container">
+<div class="header">
+<div class="title">De ce este <span class="highlight">importantă economia verde</span></div>
+<div class="badge"><i class="fas fa-leaf"></i> Impact &amp; Relevanță</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-temperature-high"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Schimbări climatice și riscuri fizice</div>
+<div class="bullet-desc">Creșterea temperaturilor globale, evenimente meteorologice extreme și dezastre naturale care afectează economia și societatea.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-exclamation-triangle"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Resurse limitate și costuri în creștere</div>
+<div class="bullet-desc">Resursele naturale devin tot mai rare și scumpe, iar dependența de combustibili fosili crește costurile energetice.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-gavel"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Presiune socială și legislativă (ESG)</div>
+<div class="bullet-desc">Reglementări stricte, standarde ESG și presiunea consumatorilor pentru practici sustenabile.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-trophy"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Avantaj competitiv și reputație</div>
+<div class="bullet-desc">Companiile verzi au o imagine mai bună, atrag investitori și câștigă loialitatea clienților.</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="visual-card">
+<div class="visual-title">Factori de importanță</div>
+<div class="importance-grid">
+<div class="importance-item">
+<div class="importance-icon"><i class="fas fa-globe-europe"></i></div>
+<div class="importance-text">Mediu</div>
+</div>
+<div class="importance-item">
+<div class="importance-icon"><i class="fas fa-users"></i></div>
+<div class="importance-text">Societate</div>
+</div>
+<div class="importance-item">
+<div class="importance-icon"><i class="fas fa-chart-line"></i></div>
+<div class="importance-text">Economie</div>
+</div>
+<div class="importance-item">
+<div class="importance-icon"><i class="fas fa-balance-scale"></i></div>
+<div class="importance-text">Legal</div>
+</div>
+</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">95%</div>
+<div class="stat-label">Conștientizare</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">78%</div>
+<div class="stat-label">Adoptare</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">65%</div>
+<div class="stat-label">Implementare</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 112px;
+        left: 80px;
+        width: 1120px;
+        height: 528px;
+        display: flex;
+        gap: 24px;
+        z-index: 10;
+    }
+    .left-column, .right-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        min-width: 0;
+    }
+    .bullet-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        min-height: 92px;
+        box-sizing: border-box;
+    }
+    .bullet-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .bullet-icon i {
+        font-size: 24px;
+        color: white;
+    }
+    .bullet-content {
+        flex: 1;
+        min-width: 0;
+    }
+    .bullet-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 8px 0;
+    }
+    .bullet-desc {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+        line-height: 1.45;
+    }
+    .visual-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px 16px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .visual-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 14px 0;
+    }
+    .progress-bar {
+        width: 100%;
+        height: 8px;
+        background: #e0e0e0;
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+    .progress-fill {
+        height: 100%;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        border-radius: 4px;
+        transition: width 0.3s ease;
+    }
+    .stats-row {
+        display: flex;
+        gap: 16px;
+        margin-top: auto;
+        padding-top: 8px;
+    }
+    .stat-item {
+        flex: 1;
+        text-align: center;
+    }
+    .stat-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+        line-height: 1;
+    }
+    .stat-label {
+        font-size: 12px;
+        color: #666;
+        margin: 4px 0 0 0;
+    }
+</style>
+
+<div class="slide-container">
+<div class="header">
+<div class="title">Marketing <span class="highlight">Sustenabil</span></div>
+<div class="badge"><i class="fas fa-leaf"></i> Strategii Eco</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-leaf"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Promovarea produselor/serviciilor eco</div>
+<div class="bullet-desc">Marketingul sustenabil se concentrează pe promovarea produselor și serviciilor care au un impact minim asupra mediului și contribuie la dezvoltarea durabilă.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-hand-holding-heart"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Responsabilitate socială și impact real</div>
+<div class="bullet-desc">Brandurile trebuie să demonstreze responsabilitate socială corporativă prin acțiuni concrete, nu doar promisiuni.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-certificate"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Transparență (date, certificări, traseu)</div>
+<div class="bullet-desc">Oferiți informații clare despre lanțul de aprovizionare, certificări și practici de producție sustenabilă.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-ban"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Evitarea afirmațiilor vagi</div>
+<div class="bullet-desc">Evitați termeni generali precum "eco-friendly" fără dovezi concrete și specificații tehnice.</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="visual-card">
+<div class="visual-title">Indicatori de Sustenabilitate</div>
+<div style="margin-bottom: 16px;">
+<div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+<span style="font-size: 14px; color: #666;">Reducere emisii CO2</span>
+<span style="font-size: 14px; color: #4CAF50; font-weight: 600;">75%</span>
+</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 75%;"></div>
+</div>
+</div>
+<div style="margin-bottom: 16px;">
+<div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+<span style="font-size: 14px; color: #666;">Utilizare materiale reciclate</span>
+<span style="font-size: 14px; color: #4CAF50; font-weight: 600;">60%</span>
+</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 60%;"></div>
+</div>
+</div>
+<div style="margin-bottom: 16px;">
+<div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+<span style="font-size: 14px; color: #666;">Eficiență energetică</span>
+<span style="font-size: 14px; color: #4CAF50; font-weight: 600;">85%</span>
+</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 85%;"></div>
+</div>
+</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">92%</div>
+<div class="stat-label">Transparență</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">4.5/5</div>
+<div class="stat-label">Rating</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">+35%</div>
+<div class="stat-label">Creștere</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+
+<section>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f8fafb;
+        }
+        .slide-container {
+            position: relative;
+            width: 1280px;
+            height: 720px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+        }
+        .header {
+            position: absolute;
+            top: 40px;
+            left: 80px;
+            width: 1120px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+        }
+        .title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin: 0;
+        }
+        .title .highlight {
+            background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .badge {
+            background: #ffebee;
+            color: #c62828;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+        .badge i {
+            margin-right: 8px;
+        }
+        .content-area {
+            position: absolute;
+            top: 112px;
+            left: 80px;
+            width: 1120px;
+            height: 528px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            z-index: 10;
+        }
+        .left-column, .right-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .info-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(76, 175, 80, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+        .info-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .card-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .card-icon i {
+            font-size: 20px;
+            color: white;
+        }
+        .card-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin: 0;
+        }
+        .card-desc {
+            font-size: 14px;
+            color: #666;
+            margin: 0;
+            line-height: 1.5;
+        }
+        .warning-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 8px;
+        }
+        .warning-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            font-size: 13px;
+            color: #555;
+            line-height: 1.4;
+        }
+        .warning-item i {
+            color: #f44336;
+            font-size: 12px;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+        .question-box {
+            background: #e8f5e9;
+            border-radius: 12px;
+            padding: 16px;
+            border: 2px solid #4CAF50;
+            box-sizing: border-box;
+        }
+        .question-text {
+            font-size: 14px;
+            color: #2e7d32;
+            margin: 0 0 12px 0;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+        .answer-options {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .answer-option {
+            background: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid #e0e0e0;
+            white-space: nowrap;
+        }
+        .answer-option:hover {
+            background: #4CAF50;
+            color: white;
+            border-color: #4CAF50;
+        }
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 8px;
+            font-size: 12px;
+            color: #666;
+        }
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .stat-item i {
+            color: #4CAF50;
+            font-size: 10px;
+        }
+    </style>
+
+<div class="slide-container">
+<div class="header">
+<div class="title">Greenwashing <span class="highlight">- Riscuri și Avertismente</span></div>
+<div class="badge"><i class="fas fa-exclamation-triangle"></i> Atenție la falsele promisiuni eco</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-leaf"></i>
+</div>
+<div class="card-title">Ce este Greenwashing?</div>
+</div>
+<div class="card-desc">Practicile de marketing care creează impresia falsă că produsele sau companiile sunt mai prietenoase cu mediul decât sunt în realitate.</div>
+<div class="warning-list">
+<div class="warning-item">
+<i class="fas fa-times-circle"></i>
+<span><strong>Promisiuni false:</strong> Afirmații vagi sau neîntemeiate despre beneficiile ecologice</span>
+</div>
+<div class="warning-item">
+<i class="fas fa-times-circle"></i>
+<span><strong>Marketing înșelător:</strong> Imagini verzi generice fără dovezi concrete</span>
+</div>
+<div class="warning-item">
+<i class="fas fa-times-circle"></i>
+<span><strong>Lipsa transparenței:</strong> Nu există date sau certificări verificabile</span>
+</div>
+</div>
+</div>
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-search"></i>
+</div>
+<div class="card-title">Semne de Greenwashing</div>
+</div>
+<div class="warning-list">
+<div class="warning-item">
+<i class="fas fa-check"></i>
+<span>Folosirea de termeni vagi precum "eco-friendly" fără detalii</span>
+</div>
+<div class="warning-item">
+<i class="fas fa-check"></i>
+<span>Imagini cu natură fără legătură cu produsul</span>
+</div>
+<div class="warning-item">
+<i class="fas fa-check"></i>
+<span>Absența certificărilor independente</span>
+</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="question-box">
+<div class="question-text">
+<i class="fas fa-question-circle"></i> Ce părere aveți de brandurile care promovează reciclarea hainelor vechi?
+                    </div>
+<div class="answer-options">
+<div class="answer-option">Excelentă inițiativă</div>
+<div class="answer-option">Marketing tactic</div>
+<div class="answer-option">Necesită verificare</div>
+<div class="answer-option">Impact real?</div>
+</div>
+</div>
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-recycle"></i>
+</div>
+<div class="card-title">Exemple de Greenwashing</div>
+</div>
+<div class="warning-list">
+<div class="warning-item">
+<i class="fas fa-shirt"></i>
+<span><strong>Fast fashion:</strong> "Colecții sustenabile" cu practici nesustenabile</span>
+</div>
+<div class="warning-item">
+<i class="fas fa-bottle-water"></i>
+<span><strong>Plastic biodegradabil:</strong> Termeni înșelători despre degradare</span>
+</div>
+<div class="warning-item">
+<i class="fas fa-tree"></i>
+<span><strong>Plantări de copaci:</strong> Promisiuni fără acțiuni concrete</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+
+<section class="slide-final">
+<style>
+        .slide-final .slide-container {
+            position: relative;
+            width: 1280px;
+            height: 720px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        /* Header */
+        .slide-final .header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 90px;
+            background: linear-gradient(90deg, #059669 0%, #0d9488 100%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .slide-final .header-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .slide-final .header-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+        }
+        
+        .slide-final .header-text h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: white;
+            margin: 0;
+        }
+        
+        .slide-final .header-text p {
+            font-size: 14px;
+            color: rgba(255,255,255,0.9);
+            margin: 2px 0 0 0;
+        }
+        
+        .slide-final .header-badge {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 20px;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        /* Main Content */
+        .slide-final .main-content {
+            position: absolute;
+            top: 110px;
+            left: 30px;
+            right: 30px;
+            bottom: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+        
+        /* Left Column */
+        .slide-final .left-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        /* Profile Card */
+        .slide-final .profile-card {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border: 1px solid #e2e8f0;
+        }
+        
+        .slide-final .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .slide-final .profile-avatar {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 28px;
+        }
+        
+        .slide-final .profile-info h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e293b;
+            margin: 0;
+        }
+        
+        .slide-final .profile-info p {
+            font-size: 13px;
+            color: #64748b;
+            margin: 2px 0 0 0;
+        }
+        
+        .slide-final .profile-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        
+        .slide-final .profile-tag {
+            background: #dcfce7;
+            color: #059669;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        /* Segments */
+        .slide-final .segments-section {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border: 1px solid #e2e8f0;
+        }
+        
+        .slide-final .section-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .slide-final .section-icon {
+            width: 32px;
+            height: 32px;
+            background: #10b981;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+        
+        .slide-final .section-title h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1e293b;
+            margin: 0;
+        }
+        
+        .slide-final .segments-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        
+        .slide-final .segment-item {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 12px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .slide-final .segment-percent {
+            font-size: 20px;
+            font-weight: 700;
+            color: #059669;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .slide-final .segment-label {
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 4px;
+        }
+        
+        /* Right Column */
+        .slide-final .right-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        /* Motivations */
+        .slide-final .motivations-section {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border: 1px solid #e2e8f0;
+        }
+        
+        .slide-final .motivations-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+        
+        .slide-final .motivation-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 10px;
+        }
+        
+        .slide-final .motivation-icon {
+            width: 36px;
+            height: 36px;
+            background: #10b981;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+        
+        .slide-final .motivation-text {
+            flex: 1;
+        }
+        
+        .slide-final .motivation-label {
+            font-size: 13px;
+            font-weight: 500;
+            color: #1e293b;
+        }
+        
+        .slide-final .motivation-desc {
+            font-size: 11px;
+            color: #64748b;
+        }
+        
+        /* Preferences */
+        .slide-final .preferences-section {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border: 1px solid #e2e8f0;
+        }
+        
+        .slide-final .preferences-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .slide-final .preference-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        
+        .slide-final .preference-item:last-child {
+            border-bottom: none;
+        }
+        
+        .slide-final .preference-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            color: #1e293b;
+        }
+        
+        .slide-final .preference-icon {
+            color: #10b981;
+            font-size: 16px;
+        }
+        
+        .slide-final .preference-bar {
+            width: 120px;
+            height: 8px;
+            background: #e2e8f0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .slide-final .preference-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #10b981 0%, #059669 100%);
+            border-radius: 4px;
+        }
+        
+        .slide-final .preference-value {
+            font-size: 13px;
+            font-weight: 600;
+            color: #059669;
+            margin-left: 10px;
+        }
+        
+        /* Footer */
+        .slide-final .footer {
+            position: absolute;
+            bottom: 20px;
+            left: 50px;
+            right: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: #64748b;
+        }
+        
+        .slide-final .footer-left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .slide-final .footer-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .slide-final .page-number {
+            background: #10b981;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    </style>
+<div class="slide-container">
+<!-- Header -->
+<div class="header">
+<div class="header-title">
+<div class="header-icon">
+<i class="fas fa-leaf"></i>
+</div>
+<div class="header-text">
+<h1>Consumatorul Verde</h1>
+<p>Profilul, comportamentul și motivațiile consumatorilor sustenabili</p>
+</div>
+</div>
+<div class="header-badge">
+<i class="fas fa-users"></i> Segmentare &amp; Analiză
+            </div>
+</div>
+<!-- Main Content -->
+<div class="main-content">
+<!-- Left Column -->
+<div class="left-column">
+<!-- Profile Card -->
+<div class="profile-card">
+<div class="profile-header">
+<div class="profile-avatar">
+<i class="fas fa-user"></i>
+</div>
+<div class="profile-info">
+<h3>Consumatorul Eco-Conștient</h3>
+<p>Segmentul cu cea mai mare creștere</p>
+</div>
+</div>
+<div class="profile-tags">
+<span class="profile-tag">Eco-friendly</span>
+<span class="profile-tag">Sustenabil</span>
+<span class="profile-tag">Responsabil</span>
+</div>
+</div>
+<!-- Segments -->
+<div class="segments-section">
+<div class="section-title">
+<div class="section-icon">
+<i class="fas fa-chart-pie"></i>
+</div>
+<h4>Segmente de Consumatori</h4>
+</div>
+<div class="segments-grid">
+<div class="segment-item">
+<div class="segment-percent">25%</div>
+<div class="segment-label">Light Green</div>
+</div>
+<div class="segment-item">
+<div class="segment-percent">45%</div>
+<div class="segment-label">Medium Green</div>
+</div>
+<div class="segment-item">
+<div class="segment-percent">30%</div>
+<div class="segment-label">Deep Green</div>
+</div>
+</div>
+</div>
+<!-- Preferences -->
+<div class="preferences-section">
+<div class="section-title">
+<div class="section-icon">
+<i class="fas fa-heart"></i>
+</div>
+<h4>Preferințe Produse Eco</h4>
+</div>
+<div class="preferences-list">
+<div class="preference-item">
+<div class="preference-label">
+<i class="fas fa-check-circle preference-icon"></i>
+<span>Produse bio/naturale</span>
+</div>
+<div style="display: flex; align-items: center;">
+<div class="preference-bar">
+<div class="preference-fill" style="width: 85%;"></div>
+</div>
+<span class="preference-value">85%</span>
+</div>
+</div>
+<div class="preference-item">
+<div class="preference-label">
+<i class="fas fa-recycle preference-icon"></i>
+<span>Reciclare &amp; reutilizare</span>
+</div>
+<div style="display: flex; align-items: center;">
+<div class="preference-bar">
+<div class="preference-fill" style="width: 72%;"></div>
+</div>
+<span class="preference-value">72%</span>
+</div>
+</div>
+<div class="preference-item">
+<div class="preference-label">
+<i class="fas fa-leaf preference-icon"></i>
+<span>Energie regenerabilă</span>
+</div>
+<div style="display: flex; align-items: center;">
+<div class="preference-bar">
+<div class="preference-fill" style="width: 68%;"></div>
+</div>
+<span class="preference-value">68%</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column -->
+<div class="right-column">
+<!-- Motivations -->
+<div class="motivations-section">
+<div class="section-title">
+<div class="section-icon">
+<i class="fas fa-bullseye"></i>
+</div>
+<h4>Motivațiile Consumatorului Verde</h4>
+</div>
+<div class="motivations-grid">
+<div class="motivation-item">
+<div class="motivation-icon">
+<i class="fas fa-heart-pulse"></i>
+</div>
+<div class="motivation-text">
+<div class="motivation-label">Sănătate</div>
+<div class="motivation-desc">Produse fără chimicale</div>
+</div>
+</div>
+<div class="motivation-item">
+<div class="motivation-icon">
+<i class="fas fa-hand-holding-heart"></i>
+</div>
+<div class="motivation-text">
+<div class="motivation-label">Etică</div>
+<div class="motivation-desc">Responsabilitate socială</div>
+</div>
+</div>
+<div class="motivation-item">
+<div class="motivation-icon">
+<i class="fas fa-dollar-sign"></i>
+</div>
+<div class="motivation-text">
+<div class="motivation-label">Economie</div>
+<div class="motivation-desc">Costuri pe termen lung</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Transparency -->
+<div class="preferences-section">
+<div class="section-title">
+<div class="section-icon">
+<i class="fas fa-eye"></i>
+</div>
+<h4>Cerințe de Transparență</h4>
+</div>
+<div class="preferences-list">
+<div class="preference-item">
+<div class="preference-label">
+<i class="fas fa-certificate preference-icon"></i>
+<span>Certificări &amp; dovezi</span>
+</div>
+<div style="display: flex; align-items: center;">
+<div class="preference-bar">
+<div class="preference-fill" style="width: 90%;"></div>
+</div>
+<span class="preference-value">90%</span>
+</div>
+</div>
+<div class="preference-item">
+<div class="preference-label">
+<i class="fas fa-info-circle preference-icon"></i>
+<span>Informații clare</span>
+</div>
+<div style="display: flex; align-items: center;">
+<div class="preference-bar">
+<div class="preference-fill" style="width: 88%;"></div>
+</div>
+<span class="preference-value">88%</span>
+</div>
+</div>
+<div class="preference-item">
+<div class="preference-label">
+<i class="fas fa-search preference-icon"></i>
+<span>Traceability</span>
+</div>
+<div style="display: flex; align-items: center;">
+<div class="preference-bar">
+<div class="preference-fill" style="width: 75%;"></div>
+</div>
+<span class="preference-value">75%</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+<div class="footer-left">
+
+</div>
+</div>
+</section>
+
+
+
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 112px;
+        left: 80px;
+        width: 1120px;
+        height: 528px;
+        display: flex;
+        gap: 24px;
+        z-index: 10;
+    }
+    .left-column, .right-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        min-width: 0;
+    }
+    .bullet-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        min-height: 92px;
+        box-sizing: border-box;
+    }
+    .bullet-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .bullet-icon i {
+        font-size: 24px;
+        color: white;
+    }
+    .bullet-content {
+        flex: 1;
+        min-width: 0;
+    }
+    .bullet-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 8px 0;
+    }
+    .bullet-desc {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+        line-height: 1.45;
+    }
+    .visual-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px 16px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .visual-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 14px 0;
+    }
+    .eco-stats {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-top: 10px;
+    }
+    .eco-stat {
+        flex: 1;
+        background: #f8f9fa;
+        border-radius: 8px;
+        padding: 12px;
+        text-align: center;
+    }
+    .eco-stat-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+        line-height: 1;
+    }
+    .eco-stat-label {
+        font-size: 12px;
+        color: #666;
+        margin: 4px 0 0 0;
+    }
+    .progress-bar {
+        width: 100%;
+        height: 8px;
+        background: #e0e0e0;
+        border-radius: 4px;
+        margin-top: 8px;
+        overflow: hidden;
+    }
+    .progress-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #4CAF50 0%, #45a049 100%);
+        border-radius: 4px;
+        transition: width 0.3s ease;
+    }
+</style>
+<div class="slide-container">
+<div class="header">
+<div class="title">Digital + <span class="highlight">Sustenabilitate</span></div>
+<div class="badge"><i class="fas fa-leaf"></i> Eco-Friendly</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-seedling"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Campanii eco online (educație + acțiune)</div>
+<div class="bullet-desc">Campanii digitale care combină conținut educațional despre sustenabilitate cu acțiuni concrete pentru reducerea impactului asupra mediului.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-file-alt"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Reducerea consumului de hârtie</div>
+<div class="bullet-desc">Digitalizarea documentelor, facturilor electronice și comunicarea online reduc semnificativ consumul de hârtie și defrișarea pădurilor.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-robot"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Automatizare = mai puține resurse irosite</div>
+<div class="bullet-desc">Automatizarea proceselor reduce erorile, optimizează resursele și minimizează deșeurile din activitățile repetitive.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-chart-line"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Măsurarea impactului și emisiilor digitale</div>
+<div class="bullet-desc">Monitorizarea amprentei de carbon digitale și optimizarea pentru reducerea emisiilor de CO2 din activitățile online.</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="visual-card">
+<div class="visual-title">Impactul Digital asupra Mediului</div>
+<div class="eco-stats">
+<div class="eco-stat">
+<div class="eco-stat-value">75%</div>
+<div class="eco-stat-label">Reducere hârtie</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 75%;"></div>
+</div>
+</div>
+<div class="eco-stat">
+<div class="eco-stat-value">40%</div>
+<div class="eco-stat-label">Eficiență</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 40%;"></div>
+</div>
+</div>
+<div class="eco-stat">
+<div class="eco-stat-value">60%</div>
+<div class="eco-stat-label">Optimizare</div>
+<div class="progress-bar">
+<div class="progress-fill" style="width: 60%;"></div>
+</div>
+</div>
+</div>
+<div style="margin-top: 16px; font-size: 13px; color: #666;">
+<i class="fas fa-info-circle" style="color: #4CAF50; margin-right: 8px;"></i>
+<span>Digitalizarea reduce amprenta de carbon cu până la 30%</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        right: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 100px;
+        left: 80px;
+        right: 80px;
+        height: 520px;
+        display: flex;
+        gap: 24px;
+        z-index: 10;
+    }
+    .column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .channel-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        transition: all 0.3s ease;
+        flex: 1;
+        box-sizing: border-box;
+        min-height: 150px;
+    }
+    .channel-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+    .channel-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .channel-icon i {
+        font-size: 24px;
+        color: white;
+    }
+    .channel-content {
+        flex: 1;
+        min-width: 0;
+    }
+    .channel-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 8px 0;
+    }
+    .channel-desc {
+        font-size: 13px;
+        color: #666;
+        margin: 0;
+        line-height: 1.4;
+    }
+    .channel-stats {
+        display: flex;
+        gap: 16px;
+        margin-top: 8px;
+        font-size: 12px;
+        color: #4CAF50;
+        flex-wrap: wrap;
+    }
+    .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        white-space: nowrap;
+    }
+    .stat-item i {
+        font-size: 10px;
+    }
+    .strategy-tag {
+        display: inline-block;
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 4px 12px;
+        border-radius: 15px;
+        font-size: 11px;
+        margin-right: 8px;
+        margin-top: 8px;
+    }
+</style>
+
+<div class="slide-container">
+<div class="header">
+<div class="title">Social Media pentru <span class="highlight">Branduri Verzi</span></div>
+<div class="badge"><i class="fas fa-leaf"></i> Educație + Engagement</div>
+</div>
+<div class="content-area">
+<div class="column">
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-graduation-cap"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">Educație Ecologică</div>
+<div class="channel-desc">Conținut educativ despre sustenabilitate, schimbări climatice și acțiuni eco.</div>
+<div class="strategy-tag">#EcoEducation</div>
+<div class="strategy-tag">#GreenTips</div>
+</div>
+</div>
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-rocket"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">Campanii Virale</div>
+<div class="channel-desc">Provocări eco, hashtag-uri trending, conținut shareable pentru viralitate.</div>
+<div class="strategy-tag">#GoGreen</div>
+<div class="strategy-tag">#ZeroWaste</div>
+</div>
+</div>
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-hashtag"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">Comunități Eco</div>
+<div class="channel-desc">Grupuri de discuție, forumuri, comunități locale de sustenabilitate.</div>
+<div class="strategy-tag">#EcoCommunity</div>
+<div class="strategy-tag">#Sustainable</div>
+</div>
+</div>
+</div>
+<div class="column">
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-users"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">Influenceri Eco</div>
+<div class="channel-desc">Colaborări cu influenceri verzi, ambasadori de brand sustenabil.</div>
+<div class="strategy-tag">#EcoInfluencer</div>
+<div class="strategy-tag">#GreenLiving</div>
+</div>
+</div>
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-camera"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">UGC (User Generated Content)</div>
+<div class="channel-desc">Conținut generat de utilizatori, testimoniale, fotografii eco.</div>
+<div class="strategy-tag">#MyEcoStory</div>
+<div class="strategy-tag">#GreenLife</div>
+</div>
+</div>
+<div class="channel-card">
+<div class="channel-icon">
+<i class="fas fa-heart"></i>
+</div>
+<div class="channel-content">
+<div class="channel-title">Engagement &amp; Feedback</div>
+<div class="channel-desc">Interacțiune cu comunitatea, răspunsuri, sondaje, Q&amp;A.</div>
+<div class="strategy-tag">#Community</div>
+<div class="strategy-tag">#Feedback</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 102px;
+        left: 80px;
+        width: 1120px;
+        height: 578px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+        z-index: 10;
+    }
+    .campaign-card {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+    }
+    .campaign-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+    .card-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 8px;
+    }
+    .card-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .card-icon i {
+        font-size: 20px;
+        color: white;
+    }
+    .card-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .card-desc {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+        line-height: 1.5;
+    }
+    .checklist {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 8px;
+    }
+    .checklist-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 13px;
+        color: #555;
+        line-height: 1.35;
+    }
+    .checklist-item i {
+        color: #4CAF50;
+        font-size: 12px;
+        flex-shrink: 0;
+    }
+    .stats-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        font-size: 12px;
+        color: #666;
+    }
+    .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        white-space: nowrap;
+    }
+    .stat-item i {
+        color: #4CAF50;
+        font-size: 10px;
+    }
+</style>
+
+<div class="slide-container">
+<div class="header">
+<div class="title">Exemple de <span class="highlight">Campanii</span></div>
+<div class="badge"><i class="fas fa-bullhorn"></i> 4 tipuri de campanii</div>
+</div>
+<div class="content-area">
+<div class="campaign-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-hashtag"></i>
+</div>
+<div class="card-title">#GoGreen / Provocări de reciclare</div>
+</div>
+<div class="card-desc">Campanii virale pe social media care încurajează utilizatorii să recicleze și să adopte obiceiuri eco-friendly.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Provocări #GoGreen</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Postări virale</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Influenceri eco</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Premii pentru participanți</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> +150% engagement</div>
+<div class="stat-item"><i class="fas fa-users"></i> 50K+ participanți</div>
+</div>
+</div>
+<div class="campaign-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-recycle"></i>
+</div>
+<div class="card-title">Colectare/Retur produse / Buy-back</div>
+</div>
+<div class="card-desc">Programe de colectare a produselor vechi pentru reciclare sau retur cu beneficii pentru clienți.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Buy-back produse</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Puncte de colectare</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Discounturi la retur</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Certificare reciclare</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> +25% retenție</div>
+<div class="stat-item"><i class="fas fa-clock"></i> 3-6 luni</div>
+</div>
+</div>
+<div class="campaign-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-leaf"></i>
+</div>
+<div class="card-title">Lansări produse biodegradabile</div>
+</div>
+<div class="card-desc">Campanii de lansare pentru produse eco-friendly, biodegradabile și sustenabile.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Lansare cu PR</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Demo-uri video</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Teste gratuite</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Reviews influenți</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> +40% vânzări</div>
+<div class="stat-item"><i class="fas fa-users"></i> 10K+ clienți</div>
+</div>
+</div>
+<div class="campaign-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-handshake"></i>
+</div>
+<div class="card-title">Parteneriate locale și plantări</div>
+</div>
+<div class="card-desc">Colaborări cu comunități locale pentru plantări și proiecte de mediu.</div>
+<div class="checklist">
+<div class="checklist-item"><i class="fas fa-check"></i> Parteneriate ONG</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Evenimente locale</div>
+<div class="checklist-item"><i class="fas fa-check"></i> Plantări în comun</div>
+<div class="checklist-item"><i class="fas fa-check"></i> CSR proiecte</div>
+</div>
+<div class="stats-row">
+<div class="stat-item"><i class="fas fa-chart-line"></i> +30% brand awareness</div>
+<div class="stat-item"><i class="fas fa-clock"></i> Continuu</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 112px;
+        left: 80px;
+        width: 1120px;
+        height: 528px;
+        display: flex;
+        gap: 24px;
+        z-index: 10;
+    }
+    .left-column, .right-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        min-width: 0;
+    }
+    .bullet-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        min-height: 92px;
+        box-sizing: border-box;
+    }
+    .bullet-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .bullet-icon i {
+        font-size: 24px;
+        color: white;
+    }
+    .bullet-content {
+        flex: 1;
+        min-width: 0;
+    }
+    .bullet-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 8px 0;
+    }
+    .bullet-desc {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+        line-height: 1.45;
+    }
+    .visual-card {
+        background: white;
+        border-radius: 12px;
+        padding: 18px 20px 16px 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .visual-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0 0 14px 0;
+    }
+    .comparison-container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 4px;
+    }
+    .comparison-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .comparison-label {
+        font-size: 13px;
+        color: #666;
+        width: 100px;
+    }
+    .comparison-bar {
+        flex: 1;
+        height: 24px;
+        background: #e0e0e0;
+        border-radius: 12px;
+        overflow: hidden;
+        position: relative;
+    }
+    .comparison-fill {
+        height: 100%;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 8px;
+        font-size: 11px;
+        color: white;
+        font-weight: 600;
+    }
+    .digital-bar {
+        background: linear-gradient(90deg, #4CAF50 0%, #45a049 100%);
+        width: 75%;
+    }
+    .traditional-bar {
+        background: linear-gradient(90deg, #FF9800 0%, #F57C00 100%);
+        width: 45%;
+    }
+    .stats-row {
+        display: flex;
+        gap: 16px;
+        margin-top: auto;
+        padding-top: 8px;
+    }
+    .stat-item {
+        flex: 1;
+        text-align: center;
+    }
+    .stat-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+        line-height: 1;
+    }
+    .stat-label {
+        font-size: 12px;
+        color: #666;
+        margin: 4px 0 0 0;
+    }
+</style>
+<div class="slide-container">
+<div class="header">
+<div class="title">Avantaj <span class="highlight">Digital pentru Eco</span></div>
+<div class="badge"><i class="fas fa-leaf"></i> Sustenabilitate</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-dollar-sign"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Cost redus vs media tradițională</div>
+<div class="bullet-desc">Marketingul digital reduce costurile cu până la 60% față de publicitatea tradițională (TV, print, radio).</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-globe-americas"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Impact global și micro-targetare</div>
+<div class="bullet-desc">Acces la audiențe globale cu posibilitatea de a targeta specific pe interese, comportamente și locații.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-chart-bar"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Măsurare impact (reach/conversii/CO2)</div>
+<div class="bullet-desc">Metrici precise: reach, engagement, conversii și monitorizarea amprentei de carbon digitale.</div>
+</div>
+</div>
+<div class="bullet-card">
+<div class="bullet-icon">
+<i class="fas fa-users"></i>
+</div>
+<div class="bullet-content">
+<div class="bullet-title">Construirea de comunități implicate</div>
+<div class="bullet-desc">Crearea de comunități de consumatori eco-conștienți loiali și angajați cu brandul.</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="visual-card">
+<div class="visual-title">Comparație Costuri: Digital vs Tradițional</div>
+<div class="comparison-container">
+<div class="comparison-item">
+<div class="comparison-label">Digital</div>
+<div class="comparison-bar">
+<div class="comparison-fill digital-bar">75%</div>
+</div>
+</div>
+<div class="comparison-item">
+<div class="comparison-label">Tradițional</div>
+<div class="comparison-bar">
+<div class="comparison-fill traditional-bar">45%</div>
+</div>
+</div>
+</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">60%</div>
+<div class="stat-label">Reducere costuri</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">3x</div>
+<div class="stat-label">ROI mai mare</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">85%</div>
+<div class="stat-label">Targetare precisă</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<Section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 112px;
+        left: 80px;
+        width: 1120px;
+        height: 528px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        z-index: 10;
+    }
+    .left-column, .right-column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .info-card {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+    }
+    .info-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+    .card-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 8px;
+    }
+    .card-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .card-icon i {
+        font-size: 20px;
+        color: white;
+    }
+    .card-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .card-desc {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+        line-height: 1.5;
+    }
+    .stats-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top: 1px solid #e0e0e0;
+    }
+    .stat-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+    .stat-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+    }
+    .stat-label {
+        font-size: 12px;
+        color: #666;
+        text-align: center;
+    }
+    .strategy-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        margin-top: 8px;
+    }
+    .strategy-item {
+        background: #f8fafb;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .strategy-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .strategy-icon i {
+        font-size: 14px;
+        color: white;
+    }
+    .strategy-text {
+        font-size: 13px;
+        color: #555;
+        margin: 0;
+        line-height: 1.3;
+    }
+    .budget-bar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 8px;
+    }
+    .budget-label {
+        font-size: 12px;
+        color: #666;
+        width: 100px;
+        flex-shrink: 0;
+    }
+    .budget-progress {
+        flex: 1;
+        height: 8px;
+        background: #e0e0e0;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    .budget-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #4CAF50 0%, #45a049 100%);
+        border-radius: 4px;
+    }
+    .budget-value {
+        font-size: 12px;
+        color: #4CAF50;
+        font-weight: 600;
+        width: 60px;
+        text-align: right;
+        flex-shrink: 0;
+    }
+    .kpi-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin-top: 8px;
+    }
+    .kpi-item {
+        background: #f8fafb;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+    .kpi-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+    }
+    .kpi-label {
+        font-size: 11px;
+        color: #666;
+        text-align: center;
+    }
+</style>
+<div class="slide-container">
+<div class="header">
+<div class="title">Studiu de Caz: <span class="highlight">Brand Sustenabil</span></div>
+<div class="badge"><i class="fas fa-chart-line"></i> Analiză completă</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-store"></i>
+</div>
+<div class="card-title">Context &amp; Piață</div>
+</div>
+<div class="card-desc">Brand eco-friendly de îmbrăcăminte sustenabilă, lansat în 2022, cu focus pe materiale organice și producție etică.</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">€2.5M</div>
+<div class="stat-label">Cifra de afaceri</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">15K</div>
+<div class="stat-label">Clienți activi</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">85%</div>
+<div class="stat-label">Satisfacție</div>
+</div>
+</div>
+</div>
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-bullseye"></i>
+</div>
+<div class="card-title">Obiective &amp; KPI Țintă</div>
+</div>
+<div class="kpi-grid">
+<div class="kpi-item">
+<div class="kpi-value">25%</div>
+<div class="kpi-label">Creștere vânzări</div>
+</div>
+<div class="kpi-item">
+<div class="kpi-value">15%</div>
+<div class="kpi-label">Reducere costuri</div>
+</div>
+<div class="kpi-item">
+<div class="kpi-value">20%</div>
+<div class="kpi-label">ROI</div>
+</div>
+</div>
+</div>
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-calendar-alt"></i>
+</div>
+<div class="card-title">Calendar &amp; Buget</div>
+</div>
+<div class="budget-bar">
+<div class="budget-label">Marketing</div>
+<div class="budget-progress">
+<div class="budget-fill" style="width: 75%;"></div>
+</div>
+<div class="budget-value">€50K</div>
+</div>
+<div class="budget-bar">
+<div class="budget-label">Producție</div>
+<div class="budget-progress">
+<div class="budget-fill" style="width: 60%;"></div>
+</div>
+<div class="budget-value">€30K</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-bullhorn"></i>
+</div>
+<div class="card-title">Strategie Digitală</div>
+</div>
+<div class="strategy-grid">
+<div class="strategy-item">
+<div class="strategy-icon">
+<i class="fas fa-hashtag"></i>
+</div>
+<div class="strategy-text">
+<div style="font-weight: 600; margin-bottom: 2px;">Social Media</div>
+<div style="font-size: 11px; color: #666;">Instagram, TikTok, LinkedIn</div>
+</div>
+</div>
+<div class="strategy-item">
+<div class="strategy-icon">
+<i class="fas fa-envelope"></i>
+</div>
+<div class="strategy-text">
+<div style="font-weight: 600; margin-bottom: 2px;">Email Marketing</div>
+<div style="font-size: 11px; color: #666;">Newslettere, automatizări</div>
+</div>
+</div>
+<div class="strategy-item">
+<div class="strategy-icon">
+<i class="fas fa-search"></i>
+</div>
+<div class="strategy-text">
+<div style="font-weight: 600; margin-bottom: 2px;">SEO</div>
+<div style="font-size: 11px; color: #666;">Optimizare organică</div>
+</div>
+</div>
+<div class="strategy-item">
+<div class="strategy-icon">
+<i class="fas fa-ad"></i>
+</div>
+<div class="strategy-text">
+<div style="font-weight: 600; margin-bottom: 2px;">Google Ads</div>
+<div style="font-size: 11px; color: #666;">Campanii PPC</div>
+</div>
+</div>
+</div>
+</div>
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-users"></i>
+</div>
+<div class="card-title">Public Țintă</div>
+</div>
+<div class="card-desc">
+<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+<i class="fas fa-user" style="color: #4CAF50;"></i>
+<span><strong>Segment:</strong> 25-45 ani, urban, conștienți de mediu</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px;">
+<i class="fas fa-map-marker-alt" style="color: #4CAF50;"></i>
+<span><strong>Locație:</strong> București, Cluj, Timișoara</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</Section>
+
+<section>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f8fafb;
+    }
+    .slide-container {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: linear-gradient(135deg, #f0f9f4 0%, #e8f4f8 50%, #f0f7ff 100%);
+    }
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 80px;
+        width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .title .highlight {
+        background: linear-gradient(120deg, #4CAF50 0%, #45a049 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .badge {
+        background: #e8f5e9;
+        color: #2e7d32;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .badge i {
+        margin-right: 8px;
+    }
+    .content-area {
+        position: absolute;
+        top: 112px;
+        left: 80px;
+        width: 1120px;
+        height: 528px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        z-index: 10;
+    }
+    .left-column, .right-column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .info-card {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(76, 175, 80, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+    }
+    .info-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+    .card-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 8px;
+    }
+    .card-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .card-icon i {
+        font-size: 20px;
+        color: white;
+    }
+    .card-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: #1a1a2e;
+        margin: 0;
+    }
+    .card-desc {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+        line-height: 1.5;
+    }
+    .stats-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top: 1px solid #e0e0e0;
+    }
+    .stat-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+    .stat-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+    }
+    .stat-label {
+        font-size: 12px;
+        color: #666;
+        text-align: center;
+    }
+    .strategy-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        margin-top: 8px;
+    }
+    .strategy-item {
+        background: #f8fafb;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .strategy-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .strategy-icon i {
+        font-size: 14px;
+        color: white;
+    }
+    .strategy-text {
+        font-size: 13px;
+        color: #555;
+        margin: 0;
+        line-height: 1.3;
+    }
+    .kpi-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin-top: 8px;
+    }
+    .kpi-item {
+        background: #f8fafb;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+    .kpi-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #4CAF50;
+        margin: 0;
+    }
+    .kpi-label {
+        font-size: 11px;
+        color: #666;
+        text-align: center;
+    }
+    .improvement-list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .improvement-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px;
+        background: #f8fafb;
+        border-radius: 8px;
+    }
+    .improvement-icon {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: #ffebee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .improvement-icon i {
+        font-size: 12px;
+        color: #c62828;
+    }
+    .improvement-text {
+        font-size: 13px;
+        color: #555;
+        margin: 0;
+    }
+    .success-list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .success-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px;
+        background: #e8f5e9;
+        border-radius: 8px;
+    }
+    .success-icon {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: #4CAF50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    .success-icon i {
+        font-size: 12px;
+        color: white;
+    }
+    .success-text {
+        font-size: 13px;
+        color: #555;
+        margin: 0;
+    }
+</style>
+<div class="slide-container">
+<div class="header">
+<div class="title">Analiza <span class="highlight">Campaniei</span></div>
+<div class="badge"><i class="fas fa-chart-bar"></i> Rezultate</div>
+</div>
+<div class="content-area">
+<div class="left-column">
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-check-circle"></i>
+</div>
+<div class="card-title">Ce a funcționat</div>
+</div>
+<div class="success-list">
+<div class="success-item">
+<div class="success-icon">
+<i class="fas fa-check"></i>
+</div>
+<div class="success-text">
+<strong>Conținut:</strong> Postările video au generat 45% mai mult engagement
+</div>
+</div>
+<div class="success-item">
+<div class="success-icon">
+<i class="fas fa-check"></i>
+</div>
+<div class="success-text">
+<strong>Canal:</strong> Instagram a adus 60% din traficul organic
+</div>
+</div>
+<div class="success-item">
+<div class="success-icon">
+<i class="fas fa-check"></i>
+</div>
+<div class="success-text">
+<strong>Ofertă:</strong> Discountul de 20% a crescut conversiile cu 35%
+</div>
+</div>
+</div>
+</div>
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-exclamation-triangle"></i>
+</div>
+<div class="card-title">Ce poate fi îmbunătățit</div>
+</div>
+<div class="improvement-list">
+<div class="improvement-item">
+<div class="improvement-icon">
+<i class="fas fa-arrow-up"></i>
+</div>
+<div class="improvement-text">
+<strong>Target:</strong> Segmentarea mai fină a publicului (25-35 vs 35-45)
+</div>
+</div>
+<div class="improvement-item">
+<div class="improvement-icon">
+<i class="fas fa-arrow-up"></i>
+</div>
+<div class="improvement-text">
+<strong>UX:</strong> Optimizare pentru mobile (60% bounce rate pe mobil)
+</div>
+</div>
+<div class="improvement-item">
+<div class="improvement-icon">
+<i class="fas fa-arrow-up"></i>
+</div>
+<div class="improvement-text">
+<strong>Creativ:</strong> Mai multe teste A/B pentru creativuri
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="right-column">
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-chart-line"></i>
+</div>
+<div class="card-title">Rezultate vs KPI</div>
+</div>
+<div class="kpi-grid">
+<div class="kpi-item">
+<div class="kpi-value">4.2%</div>
+<div class="kpi-label">CTR</div>
+</div>
+<div class="kpi-item">
+<div class="kpi-value">€0.85</div>
+<div class="kpi-label">CPA</div>
+</div>
+<div class="kpi-item">
+<div class="kpi-value">18%</div>
+<div class="kpi-label">ROI</div>
+</div>
+<div class="kpi-item">
+<div class="kpi-value">2.5%</div>
+<div class="kpi-label">Conv.</div>
+</div>
+</div>
+<div class="stats-row">
+<div class="stat-item">
+<div class="stat-value">15%</div>
+<div class="stat-label">vs Target</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">+22%</div>
+<div class="stat-label">vs Luna trecută</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">+35%</div>
+<div class="stat-label">vs Anul trecut</div>
+</div>
+</div>
+</div>
+<div class="info-card">
+<div class="card-header">
+<div class="card-icon">
+<i class="fas fa-lightbulb"></i>
+</div>
+<div class="card-title">Next Steps</div>
+</div>
+<div class="strategy-grid">
+<div class="strategy-item">
+<div class="strategy-icon">
+<i class="fas fa-check"></i>
+</div>
+<div class="strategy-text">
+<div style="font-weight: 600; margin-bottom: 2px;">Focus pe video</div>
+<div style="font-size: 11px; color: #666;">Conținut video generează 3x engagement</div>
+</div>
+</div>
+<div class="strategy-item">
+<div class="strategy-icon">
+<i class="fas fa-users"></i>
+</div>
+<div class="strategy-text">
+<div style="font-weight: 600; margin-bottom: 2px;">Segmentare</div>
+<div style="font-size: 11px; color: #666;">Targetare mai precisă</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+  width: 1280,
+  height: 720,
+  margin: 0.05
+});
+  </script>
+</body>
+</html>
